@@ -1,5 +1,4 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
+const puppeteer = require('puppeteer');
 const readline = require('readline');
 const fs = require('fs');
 
@@ -8,55 +7,58 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Enter the URL of the first page you want to scrape: ', (inputUrl) => {
-  rl.question('Enter the number of pages you want to scrape: ', (inputMaxPages) => {
+rl.question('Enter the URL of the first page you want to scrape: ', async (inputUrl) => {
+  rl.question('Enter the number of pages you want to scrape: ', async (inputMaxPages) => {
     const maxPages = parseInt(inputMaxPages, 10);
     let currentPage = 1;
 
-    const scrapePage = (page) => {
-      const url = inputUrl.replace(/page-\d+\.html$/, `page-${page}.html`);
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
 
-      axios(url)
-        .then(response => {
-          const html = response.data;
-          const $ = cheerio.load(html);
+    const scrapePage = async (pageNum) => {
+      const url = inputUrl.replace(/page-\d+\.html$/, `page-${pageNum}.html`);
 
-          const data = [];
+      try {
+        await page.goto(url, { waitUntil: 'networkidle2' });
 
-          $('body *').each((i, el) => {
-            const text = $(el).text().trim();
-
-            // Filter out very short text or irrelevant content
-            if (text && text.length > 20 && !data.includes(text)) {
-              data.push(text);
+        const data = await page.evaluate(() => {
+          const scrapedData = [];
+          document.querySelectorAll('body *').forEach(el => {
+            const text = el.innerText.trim();
+            if (text && text.length > 20 && !scrapedData.includes(text)) {
+              scrapedData.push(text);
             }
           });
+          return scrapedData;
+        });
 
-          if (data.length > 0) {
-            console.log(`\nScraped Data from Page ${page}:\n`);
-            data.forEach((item, index) => {
-              console.log(`Item ${index + 1}: ${item}\n`);
-            });
+        if (data.length > 0) {
+          console.log(`\nScraped Data from Page ${pageNum}:\n`);
+          data.forEach((item, index) => {
+            console.log(`Item ${index + 1}: ${item}\n`);
+          });
 
-            fs.appendFileSync('scrapedData.txt', `Page ${page}:\n${data.join('\n')}\n\n`);
+          fs.appendFileSync('scrapedData.txt', `Page ${pageNum}:\n${data.join('\n')}\n\n`);
 
-            if (page < maxPages) {
-              scrapePage(page + 1);
-            } else {
-              console.log('Scraping completed. Data saved to scrapedData.txt');
-              rl.close();
-            }
+          if (pageNum < maxPages) {
+            await scrapePage(pageNum + 1);
           } else {
-            console.log('No relevant data found on this page.');
+            console.log('Scraping completed. Data saved to scrapedData.txt');
+            await browser.close();
             rl.close();
           }
-        })
-        .catch(error => {
-          console.error(`Error fetching page ${page}:`, error.message);
+        } else {
+          console.log('No relevant data found on this page.');
+          await browser.close();
           rl.close();
-        });
+        }
+      } catch (error) {
+        console.error(`Error fetching page ${pageNum}:`, error.message);
+        await browser.close();
+        rl.close();
+      }
     };
 
-    scrapePage(currentPage);
+    await scrapePage(currentPage);
   });
 });
