@@ -1,0 +1,962 @@
+[
+  {
+    "originalText": "Books to Scrape We love being scraped!",
+    "preprocessedText": "books scrape we love being scraped",
+    "sentiment": {
+      "score": 0.3750000000000001,
+      "numWords": 6,
+      "numHits": 5,
+      "average": 0.06250000000000001,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5161b"
+  },
+  {
+    "originalText": "We love being scraped!",
+    "preprocessedText": "we love being scraped",
+    "sentiment": {
+      "score": 0.469,
+      "numWords": 4,
+      "numHits": 3,
+      "average": 0.11725,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5161c"
+  },
+  {
+    "originalText": "Home All products\nBooks\nTravel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime\nAll products\n1000 results - showing 1 to 20.\nWarning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
+    "preprocessedText": "home all products books travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime all products results showing warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
+    "sentiment": {
+      "score": 1.5950000000000015,
+      "numWords": 198,
+      "numHits": 99,
+      "average": 0.008055555555555564,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5161d"
+  },
+  {
+    "originalText": "Books\nTravel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime\nAll products\n1000 results - showing 1 to 20.\nWarning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
+    "preprocessedText": "books travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime all products results showing warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
+    "sentiment": {
+      "score": 0.7200000000000002,
+      "numWords": 195,
+      "numHits": 96,
+      "average": 0.0036923076923076935,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5161e"
+  },
+  {
+    "originalText": "Books\nTravel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime",
+    "preprocessedText": "books travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime",
+    "sentiment": {
+      "score": 8.723,
+      "numWords": 64,
+      "numHits": 41,
+      "average": 0.136296875,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5161f"
+  },
+  {
+    "originalText": "Travel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime",
+    "preprocessedText": "travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime",
+    "sentiment": {
+      "score": 8.473,
+      "numWords": 63,
+      "numHits": 40,
+      "average": 0.1344920634920635,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51620"
+  },
+  {
+    "originalText": "All products\n1000 results - showing 1 to 20.\nWarning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
+    "preprocessedText": "all products results showing warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
+    "sentiment": {
+      "score": -8.003,
+      "numWords": 131,
+      "numHits": 55,
+      "average": -0.06109160305343512,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51621"
+  },
+  {
+    "originalText": "1000 results - showing 1 to 20.",
+    "preprocessedText": " results showing ",
+    "sentiment": {
+      "score": 0,
+      "numWords": 2,
+      "numHits": 0,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51622"
+  },
+  {
+    "originalText": "Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
+    "preprocessedText": "warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
+    "sentiment": {
+      "score": -8.628,
+      "numWords": 127,
+      "numHits": 53,
+      "average": -0.06793700787401574,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51623"
+  },
+  {
+    "originalText": "Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.",
+    "preprocessedText": "warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning",
+    "sentiment": {
+      "score": 0.21800000000000003,
+      "numWords": 17,
+      "numHits": 10,
+      "average": 0.012823529411764708,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51624"
+  },
+  {
+    "originalText": "A Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
+    "preprocessedText": "light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
+    "sentiment": {
+      "score": 8.846,
+      "numWords": 110,
+      "numHits": 43,
+      "average": 0.08041818181818182,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51625"
+  },
+  {
+    "originalText": "A Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket",
+    "sentiment": {
+      "score": 8.846,
+      "numWords": 108,
+      "numHits": 43,
+      "average": 0.08190740740740741,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51626"
+  },
+  {
+    "originalText": "A Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "light stock add basket",
+    "sentiment": {
+      "score": 0.125,
+      "numWords": 4,
+      "numHits": 2,
+      "average": 0.03125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51627"
+  },
+  {
+    "originalText": "£51.77\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51628"
+  },
+  {
+    "originalText": "Tipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "tipping velvet stock add basket",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51629"
+  },
+  {
+    "originalText": "£53.74\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5162a"
+  },
+  {
+    "originalText": "Soumission\n\n£50.10\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "soumission stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5162b"
+  },
+  {
+    "originalText": "£50.10\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5162c"
+  },
+  {
+    "originalText": "Sharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "sharp objects stock add basket",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5162d"
+  },
+  {
+    "originalText": "£47.82\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5162e"
+  },
+  {
+    "originalText": "Sapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "sapiens brief history stock add basket",
+    "sentiment": {
+      "score": 1.375,
+      "numWords": 6,
+      "numHits": 3,
+      "average": 0.22916666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5162f"
+  },
+  {
+    "originalText": "Sapiens: A Brief History ...",
+    "preprocessedText": "sapiens brief history ",
+    "sentiment": {
+      "score": 1,
+      "numWords": 3,
+      "numHits": 2,
+      "average": 0.3333333333333333,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51630"
+  },
+  {
+    "originalText": "£54.23\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51631"
+  },
+  {
+    "originalText": "The Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "requiem red stock add basket",
+    "sentiment": {
+      "score": -0.125,
+      "numWords": 5,
+      "numHits": 2,
+      "average": -0.025,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51632"
+  },
+  {
+    "originalText": "£22.65\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51633"
+  },
+  {
+    "originalText": "The Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "dirty little secrets stock add basket",
+    "sentiment": {
+      "score": -0.43700000000000006,
+      "numWords": 6,
+      "numHits": 4,
+      "average": -0.07283333333333335,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51634"
+  },
+  {
+    "originalText": "The Dirty Little Secrets ...",
+    "preprocessedText": "dirty little secrets ",
+    "sentiment": {
+      "score": -0.812,
+      "numWords": 3,
+      "numHits": 3,
+      "average": -0.27066666666666667,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51635"
+  },
+  {
+    "originalText": "£33.34\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51636"
+  },
+  {
+    "originalText": "The Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "coming woman stock add basket",
+    "sentiment": {
+      "score": 1,
+      "numWords": 5,
+      "numHits": 3,
+      "average": 0.2,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51637"
+  },
+  {
+    "originalText": "The Coming Woman: A ...",
+    "preprocessedText": "coming woman ",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 2,
+      "numHits": 2,
+      "average": 0.3125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51638"
+  },
+  {
+    "originalText": "£17.93\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51639"
+  },
+  {
+    "originalText": "The Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "boys stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5163a"
+  },
+  {
+    "originalText": "£22.60\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5163b"
+  },
+  {
+    "originalText": "The Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "black maria stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 5,
+      "numHits": 3,
+      "average": 0.075,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5163c"
+  },
+  {
+    "originalText": "£52.15\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5163d"
+  },
+  {
+    "originalText": "Starving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "starving hearts triangular trade stock add basket",
+    "sentiment": {
+      "score": -0.375,
+      "numWords": 7,
+      "numHits": 2,
+      "average": -0.05357142857142857,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5163e"
+  },
+  {
+    "originalText": "Starving Hearts (Triangular Trade ...",
+    "preprocessedText": "starving hearts triangular trade ",
+    "sentiment": {
+      "score": -0.75,
+      "numWords": 4,
+      "numHits": 1,
+      "average": -0.1875,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5163f"
+  },
+  {
+    "originalText": "£13.99\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51640"
+  },
+  {
+    "originalText": "Shakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "shakespeares sonnets stock add basket",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51641"
+  },
+  {
+    "originalText": "Shakespeare's Sonnets",
+    "preprocessedText": "shakespeares sonnets",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 2,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51642"
+  },
+  {
+    "originalText": "£20.66\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51643"
+  },
+  {
+    "originalText": "Set Me Free\n\n£17.46\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "set me free stock add basket",
+    "sentiment": {
+      "score": 0.125,
+      "numWords": 6,
+      "numHits": 2,
+      "average": 0.020833333333333332,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51644"
+  },
+  {
+    "originalText": "£17.46\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51645"
+  },
+  {
+    "originalText": "Scott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "scott pilgrims precious little stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 7,
+      "numHits": 3,
+      "average": 0.05357142857142857,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51646"
+  },
+  {
+    "originalText": "Scott Pilgrim's Precious Little ...",
+    "preprocessedText": "scott pilgrims precious little ",
+    "sentiment": {
+      "score": 0,
+      "numWords": 4,
+      "numHits": 2,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51647"
+  },
+  {
+    "originalText": "£52.29\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51648"
+  },
+  {
+    "originalText": "Rip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "rip it up stock add basket",
+    "sentiment": {
+      "score": 0.719,
+      "numWords": 6,
+      "numHits": 2,
+      "average": 0.11983333333333333,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51649"
+  },
+  {
+    "originalText": "£35.02\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5164a"
+  },
+  {
+    "originalText": "Our Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "our band could be stock add basket",
+    "sentiment": {
+      "score": 0.688,
+      "numWords": 7,
+      "numHits": 2,
+      "average": 0.09828571428571428,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5164b"
+  },
+  {
+    "originalText": "Our Band Could Be ...",
+    "preprocessedText": "our band could be ",
+    "sentiment": {
+      "score": 0.313,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.07825,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5164c"
+  },
+  {
+    "originalText": "£57.25\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5164d"
+  },
+  {
+    "originalText": "Olio\n\n£23.88\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "olio stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5164e"
+  },
+  {
+    "originalText": "£23.88\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5164f"
+  },
+  {
+    "originalText": "Mesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "mesaerion best science stock add basket",
+    "sentiment": {
+      "score": 1.001,
+      "numWords": 6,
+      "numHits": 3,
+      "average": 0.1668333333333333,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51650"
+  },
+  {
+    "originalText": "Mesaerion: The Best Science ...",
+    "preprocessedText": "mesaerion best science ",
+    "sentiment": {
+      "score": 0.626,
+      "numWords": 3,
+      "numHits": 2,
+      "average": 0.20866666666666667,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51651"
+  },
+  {
+    "originalText": "£37.59\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51652"
+  },
+  {
+    "originalText": "Libertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "libertarianism beginners stock add basket",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51653"
+  },
+  {
+    "originalText": "Libertarianism for Beginners",
+    "preprocessedText": "libertarianism beginners",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 2,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51654"
+  },
+  {
+    "originalText": "£51.33\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51655"
+  },
+  {
+    "originalText": "It's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket",
+    "preprocessedText": "its only himalayas stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 6,
+      "numHits": 1,
+      "average": 0.0625,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51656"
+  },
+  {
+    "originalText": "It's Only the Himalayas",
+    "preprocessedText": "its only himalayas",
+    "sentiment": {
+      "score": 0,
+      "numWords": 3,
+      "numHits": 0,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51657"
+  },
+  {
+    "originalText": "£45.17\n\n In stock\n\nAdd to basket",
+    "preprocessedText": " stock add basket",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51658"
+  },
+  {
+    "originalText": "window.jQuery || document.write('<script src=\"static/oscar/js/jquery/jquery-1.9.1.min.js\"><\\/script>')",
+    "preprocessedText": "windowjquery documentwritescript srcstaticoscarjsjqueryjqueryminjsscript",
+    "sentiment": {
+      "score": 0,
+      "numWords": 3,
+      "numHits": 0,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c51659"
+  },
+  {
+    "originalText": "$(function() {\n                \n    \n    \n    oscar.init();\n\n    oscar.search.init();\n\n            });",
+    "preprocessedText": "function oscarinit oscarsearchinit ",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 3,
+      "numHits": 1,
+      "average": 0.08333333333333333,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "_id": "66c2478d63f7b67995c5165a"
+  }
+]

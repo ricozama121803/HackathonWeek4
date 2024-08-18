@@ -82,7 +82,7 @@
 <body>
     <div class="container my-5">
         <!-- Scraped Data Section without the card -->
-        <h2 class="large-heading">Scraped Data After NLP</h2>
+        <h2 class="large-heading">Scraped Data with Sentiment Analysis</h2>
         <ul id="scraped-list" class="list-group">
             <!-- Scraped data will be displayed here -->
         </ul>
@@ -100,25 +100,74 @@
     <!-- Bootstrap JS (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="app.js"></script>
+    <script src="app.js">
+
+
+    </script>
+
     <script>
-        // Displaying the mock data
-        fetchScrapedData().then(data => {
-            const list = document.getElementById('scraped-list');
-            data.scrapedData.forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item.text;
-                li.className = "list-group-item";
-                list.appendChild(li);
-            });
-        });
+        async function fetchScrapedData() {
+            try {
+                const response = await fetch("/data/scraped");
+                if (response.ok) {
+                    const data = await response.json();
+                    return data;
+                } else {
+                    console.error("Failed to fetch scraped data:", response.statusText);
+                    return [];
+                }
+            } catch (error) {
+                console.error("Error fetching scraped data:", error.message);
+                return [];
+            }
+        }
+        async function fetchNLPData() {
+            try {
+            const response = await fetch("/data/nlp");
+            if (response.ok) {
+                const data = await response.json();
+                return data.nlpProcessedData; // Extract the nlpProcessedData array from the response
+            } else {
+                console.error("Failed to fetch NLP data:", response.statusText);
+                return [];
+            }
+            } catch (error) {
+            console.error("Error fetching NLP data:", error.message);
+            return [];
+            }
+        }
 
         fetchNLPData().then(data => {
-            const textarea = document.getElementById('nlp-textarea');
-            data.nlpProcessedData.forEach(item => {
-                textarea.value += item.text + '\n';
+        const list = document.getElementById('scraped-list');
+            data.forEach(item => {
+                // Create list item element for original text
+                const liOriginalText = document.createElement('li');
+                liOriginalText.textContent = `Original Text: ${item.originalText}`;
+                liOriginalText.className = "list-group-item";
+                liOriginalText.style.fontWeight = "normal"; 
+                liOriginalText.style.fontSize = "16px";
+                liOriginalText.style.color = "#ffffff";      
+                liOriginalText.style.backgroundColor = "#333333"; 
+                liOriginalText.style.padding = "10px";       
+
+                // Create list item element for sentiment
+                const liSentiment = document.createElement('li');
+                liSentiment.textContent = `Sentiment: ${item.sentiment.vote} (Score: ${item.sentiment.score})`;
+                liSentiment.className = "list-group-item sentiment";
+                
+                // Style sentiment
+                liSentiment.style.fontWeight = "bold";
+                liSentiment.style.fontSize = "18px";
+                liSentiment.style.color = item.sentiment.vote === "positive" ? "#00ff7f" : "#ff6347"; 
+                liSentiment.style.backgroundColor = "#444444";  
+                liSentiment.style.padding = "10px";
+                liSentiment.style.marginTop = "5px";           
+
+                // Append elements to the list
+                list.appendChild(liOriginalText);
+                list.appendChild(liSentiment);
             });
-        });
+            });
     </script>
 </body>
 

@@ -5,6 +5,7 @@ const fs = require("fs");
 require("dotenv").config();
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const mongoose = require("mongoose");
+const { NlpManager } = require("node-nlp");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -17,6 +18,10 @@ const uri = process.env.MONGODB_URI;
 let client;
 let db;
 
+// NLP Manager instance
+const nlp = new NlpManager({ languages: ["en"] });
+
+// Connect to MongoDB
 async function connectToMongoDB() {
   console.log("Connecting to MongoDB...");
   const connectionParams = {
@@ -34,8 +39,53 @@ async function connectToMongoDB() {
     });
 }
 
-// Call this function once when the server starts
-connectToMongoDB();
+// Function to initialize NLP model
+async function initializeNLP() {
+  await nlp.train();
+  console.log("NLP Model trained");
+}
+
+function preprocessText(text) {
+  text = text.toLowerCase();
+
+  text = text.replace(/[^a-z\s]/g, "");
+
+  let tokens = text.split(/\s+/);
+
+  const stopwords = ["the", "is", "in", "and", "to", "with", "a", "of", "for"];
+  tokens = tokens.filter((token) => !stopwords.includes(token));
+
+  return tokens.join(" ");
+}
+function extractKeywords(text) {
+  text = text.toLowerCase().replace(/[^a-z\s]/g, "");
+
+  let tokens = text.split(/\s+/);
+
+  const stopwords = ["the", "is", "in", "and", "to", "with", "a", "of", "for"];
+  tokens = tokens.filter((token) => !stopwords.includes(token));
+
+  const frequency = {};
+  tokens.forEach((token) => {
+    frequency[token] = (frequency[token] || 0) + 1;
+  });
+
+  const sorted = Object.entries(frequency).sort((a, b) => b[1] - a[1]);
+  return sorted.slice(0, 5).map((entry) => entry[0]);
+}
+
+// Initialize the server and MongoDB
+async function startServer() {
+  await connectToMongoDB();
+  await initializeNLP(); // Train the NLP model before handling requests
+
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
+
+// Call the start function to begin server and initialize MongoDB & NLP model
+startServer();
 
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, "public")));
@@ -45,6 +95,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
+// Route to handle scraping
 // Route to handle scraping
 app.post("/scrape", async (req, res) => {
   const { url, pages } = req.body;
@@ -89,21 +140,38 @@ app.post("/scrape", async (req, res) => {
 
     await scrapePage(currentPage);
 
-    // Save to MongoDB
-    const collection = db.collection("scrapedData");
-    await collection.insertMany(scrapedData.map((text) => ({ text })));
+    // Process the scraped data with preprocessing and the NLP model
+    const nlpProcessedData = [];
+    for (const text of scrapedData) {
+      const preprocessedText = preprocessText(text);
+      const keywords = extractKeywords(text);
+      const response = await nlp.process("en", preprocessedText);
+      nlpProcessedData.push({
+        originalText: text, // Store original text
+        preprocessedText: preprocessedText, // Store preprocessed text
+        sentiment: response.sentiment, // NLP sentiment analysis
+        entities: response.entities, // Named entities
+        keywords: keywords, // Extracted keywords
+      });
+    }
 
-    // Optionally save to file
-    fs.writeFileSync("scrapedData.txt", scrapedData.join("\n"));
+    // Save NLP processed data to MongoDB
+    const collection = db.collection("nlpProcessedData");
+    await collection.insertMany(nlpProcessedData);
+
+    fs.writeFileSync(
+      "nlpProcessedData.json",
+      JSON.stringify(nlpProcessedData, null, 2)
+    );
 
     // Send response
     res.status(200).json({
-      message: "Scraping completed",
-      data: scrapedData,
+      message: "Scraping and NLP processing completed",
+      data: nlpProcessedData,
     });
   } catch (error) {
-    console.error("Error scraping:", error.message);
-    res.status(500).json({ error: "Scraping failed" });
+    console.error("Error scraping and processing NLP:", error.message);
+    res.status(500).json({ error: "Scraping or NLP processing failed" });
   } finally {
     // Close the browser even if an error occurs
     if (browser) {
@@ -112,9 +180,26 @@ app.post("/scrape", async (req, res) => {
   }
 });
 
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+// Route to retrieve scraped data
+app.get("/data/scraped", async (req, res) => {
+  try {
+    const collection = db.collection("scrapedData");
+    const scrapedData = await collection.find({}).toArray();
+    res.status(200).json({ scrapedData });
+  } catch (error) {
+    console.error("Error retrieving scraped data:", error.message);
+    res.status(500).json({ error: "Failed to retrieve scraped data" });
+  }
 });
 
-
+// Route to retrieve NLP processed data
+app.get("/data/nlp", async (req, res) => {
+  try {
+    const collection = db.collection("nlpProcessedData");
+    const nlpProcessedData = await collection.find({}).toArray();
+    res.status(200).json({ nlpProcessedData });
+  } catch (error) {
+    console.error("Error retrieving NLP processed data:", error.message);
+    res.status(500).json({ error: "Failed to retrieve NLP processed data" });
+  }
+});
