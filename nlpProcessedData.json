@@ -1,353 +1,137 @@
 [
   {
-    "originalText": "Books to Scrape We love being scraped!",
-    "preprocessedText": "books scrape we love being scraped",
+    "originalText": "Quotes to Scrape\n\nLogin\n\n“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →\nTop Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "quotes scrape login world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next top ten tags love inspirational life humor books reading friendship friends truth simile",
     "sentiment": {
-      "score": 0.3750000000000001,
-      "numWords": 6,
-      "numHits": 5,
-      "average": 0.06250000000000001,
+      "score": -22.426000000000002,
+      "numWords": 231,
+      "numHits": 101,
+      "average": -0.09708225108225109,
       "type": "senticon",
       "locale": "en",
-      "vote": "positive"
+      "vote": "negative"
     },
     "entities": [],
     "keywords": [
-      "books",
+      "tags",
+      "by",
+      "about",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018ba4f"
+  },
+  {
+    "originalText": "Quotes to Scrape\n\nLogin",
+    "preprocessedText": "quotes scrape login",
+    "sentiment": {
+      "score": -0.344,
+      "numWords": 3,
+      "numHits": 1,
+      "average": -0.11466666666666665,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "quotes",
       "scrape",
-      "we",
-      "love",
-      "being"
+      "login"
     ],
-    "_id": "66c255a1319c55b550337533"
+    "_id": "66c25a2f544ef0254018ba50"
   },
   {
-    "originalText": "We love being scraped!",
-    "preprocessedText": "we love being scraped",
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →\nTop Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next top ten tags love inspirational life humor books reading friendship friends truth simile",
     "sentiment": {
-      "score": 0.469,
-      "numWords": 4,
-      "numHits": 3,
-      "average": 0.11725,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "we",
-      "love",
-      "being",
-      "scraped"
-    ],
-    "_id": "66c255a1319c55b550337534"
-  },
-  {
-    "originalText": "Home All products\nBooks\nTravel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime\nAll products\n1000 results - showing 1 to 20.\nWarning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
-    "preprocessedText": "home all products books travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime all products results showing warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
-    "sentiment": {
-      "score": 1.5950000000000015,
-      "numWords": 198,
-      "numHits": 99,
-      "average": 0.008055555555555564,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "add",
-      "stock",
-      "basket",
-      "fiction",
-      "science"
-    ],
-    "_id": "66c255a1319c55b550337535"
-  },
-  {
-    "originalText": "Books\nTravel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime\nAll products\n1000 results - showing 1 to 20.\nWarning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
-    "preprocessedText": "books travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime all products results showing warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
-    "sentiment": {
-      "score": 0.7200000000000002,
-      "numWords": 195,
-      "numHits": 96,
-      "average": 0.0036923076923076935,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "add",
-      "stock",
-      "basket",
-      "fiction",
-      "science"
-    ],
-    "_id": "66c255a1319c55b550337536"
-  },
-  {
-    "originalText": "Books\nTravel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime",
-    "preprocessedText": "books travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime",
-    "sentiment": {
-      "score": 8.723,
-      "numWords": 64,
-      "numHits": 41,
-      "average": 0.136296875,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "fiction",
-      "adult",
-      "historical",
-      "art",
-      "science"
-    ],
-    "_id": "66c255a1319c55b550337537"
-  },
-  {
-    "originalText": "Travel\nMystery\nHistorical Fiction\nSequential Art\nClassics\nPhilosophy\nRomance\nWomens Fiction\nFiction\nChildrens\nReligion\nNonfiction\nMusic\nDefault\nScience Fiction\nSports and Games\nAdd a comment\nFantasy\nNew Adult\nYoung Adult\nScience\nPoetry\nParanormal\nArt\nPsychology\nAutobiography\nParenting\nAdult Fiction\nHumor\nHorror\nHistory\nFood and Drink\nChristian Fiction\nBusiness\nBiography\nThriller\nContemporary\nSpirituality\nAcademic\nSelf Help\nHistorical\nChristian\nSuspense\nShort Stories\nNovels\nHealth\nPolitics\nCultural\nErotica\nCrime",
-    "preprocessedText": "travel mystery historical fiction sequential art classics philosophy romance womens fiction fiction childrens religion nonfiction music default science fiction sports games add comment fantasy new adult young adult science poetry paranormal art psychology autobiography parenting adult fiction humor horror history food drink christian fiction business biography thriller contemporary spirituality academic self help historical christian suspense short stories novels health politics cultural erotica crime",
-    "sentiment": {
-      "score": 8.473,
-      "numWords": 63,
-      "numHits": 40,
-      "average": 0.1344920634920635,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "fiction",
-      "adult",
-      "historical",
-      "art",
-      "science"
-    ],
-    "_id": "66c255a1319c55b550337538"
-  },
-  {
-    "originalText": "All products\n1000 results - showing 1 to 20.\nWarning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
-    "preprocessedText": "all products results showing warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
-    "sentiment": {
-      "score": -8.003,
-      "numWords": 131,
-      "numHits": 55,
-      "average": -0.06109160305343512,
+      "score": -22.082000000000004,
+      "numWords": 228,
+      "numHits": 100,
+      "average": -0.09685087719298248,
       "type": "senticon",
       "locale": "en",
       "vote": "negative"
     },
     "entities": [],
     "keywords": [
-      "stock",
-      "add",
-      "basket",
-      "little",
-      "all"
+      "tags",
+      "by",
+      "about",
+      "it",
+      "be"
     ],
-    "_id": "66c255a1319c55b550337539"
+    "_id": "66c25a2f544ef0254018ba51"
   },
   {
-    "originalText": "1000 results - showing 1 to 20.",
-    "preprocessedText": " results showing ",
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next ",
     "sentiment": {
-      "score": 0,
-      "numWords": 2,
-      "numHits": 0,
-      "average": 0,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "neutral"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "results",
-      "showing"
-    ],
-    "_id": "66c255a1319c55b55033753a"
-  },
-  {
-    "originalText": "Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n\n    \n\nA Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
-    "preprocessedText": "warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
-    "sentiment": {
-      "score": -8.628,
-      "numWords": 127,
-      "numHits": 53,
-      "average": -0.06793700787401574,
+      "score": -19.644000000000005,
+      "numWords": 215,
+      "numHits": 92,
+      "average": -0.09136744186046514,
       "type": "senticon",
       "locale": "en",
       "vote": "negative"
     },
     "entities": [],
     "keywords": [
-      "stock",
-      "add",
-      "basket",
-      "little",
-      "warning"
+      "by",
+      "about",
+      "tags",
+      "it",
+      "be"
     ],
-    "_id": "66c255a1319c55b55033753b"
+    "_id": "66c25a2f544ef0254018ba52"
   },
   {
-    "originalText": "Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.",
-    "preprocessedText": "warning this demo website web scraping purposes prices ratings here were randomly assigned have no real meaning",
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world",
     "sentiment": {
-      "score": 0.21800000000000003,
-      "numWords": 17,
-      "numHits": 10,
-      "average": 0.012823529411764708,
+      "score": -0.438,
+      "numWords": 27,
+      "numHits": 12,
+      "average": -0.01622222222222222,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "thinking",
+      "world",
+      "it",
+      "our",
+      "as"
+    ],
+    "_id": "66c25a2f544ef0254018ba53"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 18,
+      "numHits": 7,
+      "average": 0.027777777777777776,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "warning",
-      "this",
-      "demo",
-      "website",
-      "web"
+      "it",
+      "our",
+      "thinking",
+      "world",
+      "as"
     ],
-    "_id": "66c255a1319c55b55033753c"
+    "_id": "66c25a2f544ef0254018ba54"
   },
   {
-    "originalText": "A Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket\nPage 1 of 50\nnext",
-    "preprocessedText": "light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket page next",
-    "sentiment": {
-      "score": 8.846,
-      "numWords": 110,
-      "numHits": 43,
-      "average": 0.08041818181818182,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "stock",
-      "add",
-      "basket",
-      "little",
-      "light"
-    ],
-    "_id": "66c255a1319c55b55033753d"
-  },
-  {
-    "originalText": "A Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket\n\n    \n\nTipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket\n\n    \n\nSoumission\n\n£50.10\n\n In stock\n\nAdd to basket\n\n    \n\nSharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket\n\n    \n\nSapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket\n\n    \n\nThe Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket\n\n    \n\nThe Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket\n\n    \n\nThe Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket\n\n    \n\nThe Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket\n\n    \n\nThe Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket\n\n    \n\nStarving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket\n\n    \n\nShakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket\n\n    \n\nSet Me Free\n\n£17.46\n\n In stock\n\nAdd to basket\n\n    \n\nScott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket\n\n    \n\nRip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket\n\n    \n\nOur Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket\n\n    \n\nOlio\n\n£23.88\n\n In stock\n\nAdd to basket\n\n    \n\nMesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket\n\n    \n\nLibertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket\n\n    \n\nIt's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "light stock add basket tipping velvet stock add basket soumission stock add basket sharp objects stock add basket sapiens brief history stock add basket requiem red stock add basket dirty little secrets stock add basket coming woman stock add basket boys stock add basket black maria stock add basket starving hearts triangular trade stock add basket shakespeares sonnets stock add basket set me free stock add basket scott pilgrims precious little stock add basket rip it up stock add basket our band could be stock add basket olio stock add basket mesaerion best science stock add basket libertarianism beginners stock add basket its only himalayas stock add basket",
-    "sentiment": {
-      "score": 8.846,
-      "numWords": 108,
-      "numHits": 43,
-      "average": 0.08190740740740741,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "stock",
-      "add",
-      "basket",
-      "little",
-      "light"
-    ],
-    "_id": "66c255a1319c55b55033753e"
-  },
-  {
-    "originalText": "A Light in the ...\n\n£51.77\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "light stock add basket",
-    "sentiment": {
-      "score": 0.125,
-      "numWords": 4,
-      "numHits": 2,
-      "average": 0.03125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "light",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033753f"
-  },
-  {
-    "originalText": "£51.77\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337540"
-  },
-  {
-    "originalText": "Tipping the Velvet\n\n£53.74\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "tipping velvet stock add basket",
-    "sentiment": {
-      "score": 0.625,
-      "numWords": 5,
-      "numHits": 2,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "tipping",
-      "velvet",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337541"
-  },
-  {
-    "originalText": "£53.74\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337542"
-  },
-  {
-    "originalText": "Soumission\n\n£50.10\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "soumission stock add basket",
+    "originalText": "by Albert Einstein (about)",
+    "preprocessedText": "by albert einstein about",
     "sentiment": {
       "score": 0.375,
       "numWords": 4,
@@ -359,277 +143,409 @@
     },
     "entities": [],
     "keywords": [
-      "soumission",
-      "stock",
-      "add",
-      "basket"
+      "by",
+      "albert",
+      "einstein",
+      "about"
     ],
-    "_id": "66c255a1319c55b550337543"
+    "_id": "66c25a2f544ef0254018ba55"
   },
   {
-    "originalText": "£50.10\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
+    "originalText": "Tags: change deep-thoughts thinking world",
+    "preprocessedText": "tags change deepthoughts thinking world",
     "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337544"
-  },
-  {
-    "originalText": "Sharp Objects\n\n£47.82\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "sharp objects stock add basket",
-    "sentiment": {
-      "score": 0.625,
+      "score": 0.563,
       "numWords": 5,
-      "numHits": 2,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "sharp",
-      "objects",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337545"
-  },
-  {
-    "originalText": "£47.82\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337546"
-  },
-  {
-    "originalText": "Sapiens: A Brief History ...\n\n£54.23\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "sapiens brief history stock add basket",
-    "sentiment": {
-      "score": 1.375,
-      "numWords": 6,
-      "numHits": 3,
-      "average": 0.22916666666666666,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "sapiens",
-      "brief",
-      "history",
-      "stock",
-      "add"
-    ],
-    "_id": "66c255a1319c55b550337547"
-  },
-  {
-    "originalText": "Sapiens: A Brief History ...",
-    "preprocessedText": "sapiens brief history ",
-    "sentiment": {
-      "score": 1,
-      "numWords": 3,
-      "numHits": 2,
-      "average": 0.3333333333333333,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "sapiens",
-      "brief",
-      "history",
-      ""
-    ],
-    "_id": "66c255a1319c55b550337548"
-  },
-  {
-    "originalText": "£54.23\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337549"
-  },
-  {
-    "originalText": "The Requiem Red\n\n£22.65\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "requiem red stock add basket",
-    "sentiment": {
-      "score": -0.125,
-      "numWords": 5,
-      "numHits": 2,
-      "average": -0.025,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "negative"
-    },
-    "entities": [],
-    "keywords": [
-      "requiem",
-      "red",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033754a"
-  },
-  {
-    "originalText": "£22.65\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033754b"
-  },
-  {
-    "originalText": "The Dirty Little Secrets ...\n\n£33.34\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "dirty little secrets stock add basket",
-    "sentiment": {
-      "score": -0.43700000000000006,
-      "numWords": 6,
       "numHits": 4,
-      "average": -0.07283333333333335,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "negative"
-    },
-    "entities": [],
-    "keywords": [
-      "dirty",
-      "little",
-      "secrets",
-      "stock",
-      "add"
-    ],
-    "_id": "66c255a1319c55b55033754c"
-  },
-  {
-    "originalText": "The Dirty Little Secrets ...",
-    "preprocessedText": "dirty little secrets ",
-    "sentiment": {
-      "score": -0.812,
-      "numWords": 3,
-      "numHits": 3,
-      "average": -0.27066666666666667,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "negative"
-    },
-    "entities": [],
-    "keywords": [
-      "dirty",
-      "little",
-      "secrets",
-      ""
-    ],
-    "_id": "66c255a1319c55b55033754d"
-  },
-  {
-    "originalText": "£33.34\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
+      "average": 0.11259999999999999,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
+      "tags",
+      "change",
+      "deepthoughts",
+      "thinking",
+      "world"
     ],
-    "_id": "66c255a1319c55b55033754e"
+    "_id": "66c25a2f544ef0254018ba56"
   },
   {
-    "originalText": "The Coming Woman: A ...\n\n£17.93\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "coming woman stock add basket",
+    "originalText": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices",
+    "preprocessedText": "it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices",
     "sentiment": {
-      "score": 1,
-      "numWords": 5,
-      "numHits": 3,
-      "average": 0.2,
+      "score": 2.125,
+      "numWords": 22,
+      "numHits": 7,
+      "average": 0.09659090909090909,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "coming",
-      "woman",
-      "stock",
-      "add",
-      "basket"
+      "our",
+      "choices",
+      "abilities",
+      "it",
+      "harry"
     ],
-    "_id": "66c255a1319c55b55033754f"
+    "_id": "66c25a2f544ef0254018ba57"
   },
   {
-    "originalText": "The Coming Woman: A ...",
-    "preprocessedText": "coming woman ",
+    "originalText": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”",
+    "preprocessedText": "it our choices harry that show what we truly are far more than our abilities",
     "sentiment": {
       "score": 0.625,
-      "numWords": 2,
+      "numWords": 15,
+      "numHits": 3,
+      "average": 0.041666666666666664,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "our",
+      "it",
+      "choices",
+      "harry",
+      "that"
+    ],
+    "_id": "66c25a2f544ef0254018ba58"
+  },
+  {
+    "originalText": "by J.K. Rowling (about)",
+    "preprocessedText": "by jk rowling about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "jk",
+      "rowling",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba59"
+  },
+  {
+    "originalText": "Tags: abilities choices",
+    "preprocessedText": "tags abilities choices",
+    "sentiment": {
+      "score": 1.125,
+      "numWords": 3,
+      "numHits": 3,
+      "average": 0.375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "abilities",
+      "choices"
+    ],
+    "_id": "66c25a2f544ef0254018ba5a"
+  },
+  {
+    "originalText": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles",
+    "preprocessedText": "there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles",
+    "sentiment": {
+      "score": 1.5830000000000002,
+      "numWords": 28,
+      "numHits": 6,
+      "average": 0.05653571428571429,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "miracle",
+      "live",
+      "life",
+      "as",
+      "though"
+    ],
+    "_id": "66c25a2f544ef0254018ba5b"
+  },
+  {
+    "originalText": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”",
+    "preprocessedText": "there are only two ways live your life one as though nothing miracle other as though everything miracle",
+    "sentiment": {
+      "score": 0.22899999999999998,
+      "numWords": 18,
       "numHits": 2,
+      "average": 0.012722222222222222,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "as",
+      "though",
+      "miracle",
+      "there",
+      "are"
+    ],
+    "_id": "66c25a2f544ef0254018ba5c"
+  },
+  {
+    "originalText": "Tags: inspirational life live miracle miracles",
+    "preprocessedText": "tags inspirational life live miracle miracles",
+    "sentiment": {
+      "score": 0.979,
+      "numWords": 6,
+      "numHits": 3,
+      "average": 0.16316666666666665,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "inspirational",
+      "life",
+      "live",
+      "miracle"
+    ],
+    "_id": "66c25a2f544ef0254018ba5d"
+  },
+  {
+    "originalText": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor",
+    "preprocessedText": "person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor",
+    "sentiment": {
+      "score": -2.0250000000000004,
+      "numWords": 25,
+      "numHits": 16,
+      "average": -0.08100000000000002,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "person",
+      "it",
+      "gentleman",
+      "or"
+    ],
+    "_id": "66c25a2f544ef0254018ba5e"
+  },
+  {
+    "originalText": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”",
+    "preprocessedText": "person be it gentleman or lady who has not pleasure good novel must be intolerably stupid",
+    "sentiment": {
+      "score": -0.5250000000000001,
+      "numWords": 16,
+      "numHits": 11,
+      "average": -0.03281250000000001,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "person",
+      "it",
+      "gentleman",
+      "or"
+    ],
+    "_id": "66c25a2f544ef0254018ba5f"
+  },
+  {
+    "originalText": "by Jane Austen (about)",
+    "preprocessedText": "by jane austen about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "jane",
+      "austen",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba60"
+  },
+  {
+    "originalText": "Tags: aliteracy books classic humor",
+    "preprocessedText": "tags aliteracy books classic humor",
+    "sentiment": {
+      "score": 1.125,
+      "numWords": 5,
+      "numHits": 4,
+      "average": 0.225,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "aliteracy",
+      "books",
+      "classic",
+      "humor"
+    ],
+    "_id": "66c25a2f544ef0254018ba61"
+  },
+  {
+    "originalText": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational",
+    "preprocessedText": "imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational",
+    "sentiment": {
+      "score": 2.0380000000000003,
+      "numWords": 19,
+      "numHits": 8,
+      "average": 0.10726315789473685,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "absolutely",
+      "imperfection",
+      "beauty",
+      "madness",
+      "genius"
+    ],
+    "_id": "66c25a2f544ef0254018ba62"
+  },
+  {
+    "originalText": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”",
+    "preprocessedText": "imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring",
+    "sentiment": {
+      "score": 1.163,
+      "numWords": 12,
+      "numHits": 5,
+      "average": 0.09691666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "absolutely",
+      "imperfection",
+      "beauty",
+      "madness",
+      "genius"
+    ],
+    "_id": "66c25a2f544ef0254018ba63"
+  },
+  {
+    "originalText": "by Marilyn Monroe (about)",
+    "preprocessedText": "by marilyn monroe about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "marilyn",
+      "monroe",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba64"
+  },
+  {
+    "originalText": "Tags: be-yourself inspirational",
+    "preprocessedText": "tags beyourself inspirational",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 3,
+      "numHits": 2,
+      "average": 0.16666666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "beyourself",
+      "inspirational"
+    ],
+    "_id": "66c25a2f544ef0254018ba65"
+  },
+  {
+    "originalText": "“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value",
+    "preprocessedText": "try not become man success rather become man value by albert einstein about tags adulthood success value",
+    "sentiment": {
+      "score": -4.5009999999999994,
+      "numWords": 17,
+      "numHits": 12,
+      "average": -0.2647647058823529,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "become",
+      "man",
+      "success",
+      "value",
+      "try"
+    ],
+    "_id": "66c25a2f544ef0254018ba66"
+  },
+  {
+    "originalText": "“Try not to become a man of success. Rather become a man of value.”",
+    "preprocessedText": "try not become man success rather become man value",
+    "sentiment": {
+      "score": -2.876,
+      "numWords": 9,
+      "numHits": 8,
+      "average": -0.31955555555555554,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "become",
+      "man",
+      "try",
+      "not",
+      "success"
+    ],
+    "_id": "66c25a2f544ef0254018ba67"
+  },
+  {
+    "originalText": "Tags: adulthood success value",
+    "preprocessedText": "tags adulthood success value",
+    "sentiment": {
+      "score": 1.25,
+      "numWords": 4,
+      "numHits": 3,
       "average": 0.3125,
       "type": "senticon",
       "locale": "en",
@@ -637,36 +553,60 @@
     },
     "entities": [],
     "keywords": [
-      "coming",
-      "woman",
-      ""
+      "tags",
+      "adulthood",
+      "success",
+      "value"
     ],
-    "_id": "66c255a1319c55b550337550"
+    "_id": "66c25a2f544ef0254018ba68"
   },
   {
-    "originalText": "£17.93\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
+    "originalText": "“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love",
+    "preprocessedText": "it better be hated what you are than be loved what you are not by andr gide about tags life love",
     "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
+      "score": -0.3320000000000001,
+      "numWords": 21,
+      "numHits": 9,
+      "average": -0.01580952380952381,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "what",
+      "you",
+      "are",
+      "it"
+    ],
+    "_id": "66c25a2f544ef0254018ba69"
+  },
+  {
+    "originalText": "“It is better to be hated for what you are than to be loved for what you are not.”",
+    "preprocessedText": "it better be hated what you are than be loved what you are not",
+    "sentiment": {
+      "score": 0.7929999999999999,
+      "numWords": 14,
+      "numHits": 6,
+      "average": 0.05664285714285714,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
+      "be",
+      "what",
+      "you",
+      "are",
+      "it"
     ],
-    "_id": "66c255a1319c55b550337551"
+    "_id": "66c25a2f544ef0254018ba6a"
   },
   {
-    "originalText": "The Boys in the ...\n\n£22.60\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "boys stock add basket",
+    "originalText": "by André Gide (about)",
+    "preprocessedText": "by andr gide about",
     "sentiment": {
       "score": 0.375,
       "numWords": 4,
@@ -678,167 +618,168 @@
     },
     "entities": [],
     "keywords": [
-      "boys",
-      "stock",
-      "add",
-      "basket"
+      "by",
+      "andr",
+      "gide",
+      "about"
     ],
-    "_id": "66c255a1319c55b550337552"
+    "_id": "66c25a2f544ef0254018ba6b"
   },
   {
-    "originalText": "£22.60\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
+    "originalText": "“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased",
+    "preprocessedText": "i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased",
     "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337553"
-  },
-  {
-    "originalText": "The Black Maria\n\n£52.15\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "black maria stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 5,
-      "numHits": 3,
-      "average": 0.075,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "black",
-      "maria",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337554"
-  },
-  {
-    "originalText": "£52.15\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337555"
-  },
-  {
-    "originalText": "Starving Hearts (Triangular Trade ...\n\n£13.99\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "starving hearts triangular trade stock add basket",
-    "sentiment": {
-      "score": -0.375,
-      "numWords": 7,
-      "numHits": 2,
-      "average": -0.05357142857142857,
+      "score": -1.202,
+      "numWords": 20,
+      "numHits": 9,
+      "average": -0.0601,
       "type": "senticon",
       "locale": "en",
       "vote": "negative"
     },
     "entities": [],
     "keywords": [
-      "starving",
-      "hearts",
-      "triangular",
-      "trade",
-      "stock"
+      "edison",
+      "i",
+      "have",
+      "not",
+      "failed"
     ],
-    "_id": "66c255a1319c55b550337556"
+    "_id": "66c25a2f544ef0254018ba6c"
   },
   {
-    "originalText": "Starving Hearts (Triangular Trade ...",
-    "preprocessedText": "starving hearts triangular trade ",
+    "originalText": "“I have not failed. I've just found 10,000 ways that won't work.”",
+    "preprocessedText": "i have not failed ive just found ways that wont work",
     "sentiment": {
-      "score": -0.75,
+      "score": -0.327,
+      "numWords": 11,
+      "numHits": 6,
+      "average": -0.029727272727272727,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "i",
+      "have",
+      "not",
+      "failed",
+      "ive"
+    ],
+    "_id": "66c25a2f544ef0254018ba6d"
+  },
+  {
+    "originalText": "by Thomas A. Edison (about)",
+    "preprocessedText": "by thomas edison about",
+    "sentiment": {
+      "score": 0.375,
       "numWords": 4,
       "numHits": 1,
-      "average": -0.1875,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "thomas",
+      "edison",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba6e"
+  },
+  {
+    "originalText": "Tags: edison failure inspirational paraphrased",
+    "preprocessedText": "tags edison failure inspirational paraphrased",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.1,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "edison",
+      "failure",
+      "inspirational",
+      "paraphrased"
+    ],
+    "_id": "66c25a2f544ef0254018ba6f"
+  },
+  {
+    "originalText": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt",
+    "preprocessedText": "woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": -0.781,
+      "numWords": 20,
+      "numHits": 6,
+      "average": -0.03905,
       "type": "senticon",
       "locale": "en",
       "vote": "negative"
     },
     "entities": [],
     "keywords": [
-      "starving",
-      "hearts",
-      "triangular",
-      "trade",
-      ""
+      "woman",
+      "like",
+      "tea",
+      "bag",
+      "you"
     ],
-    "_id": "66c255a1319c55b550337557"
+    "_id": "66c25a2f544ef0254018ba70"
   },
   {
-    "originalText": "£13.99\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
+    "originalText": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”",
+    "preprocessedText": "woman like tea bag you never know how strong it until its hot water",
+    "sentiment": {
+      "score": -0.15600000000000003,
+      "numWords": 14,
+      "numHits": 4,
+      "average": -0.011142857142857145,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "woman",
+      "like",
+      "tea",
+      "bag",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018ba71"
+  },
+  {
+    "originalText": "by Eleanor Roosevelt (about)",
+    "preprocessedText": "by eleanor roosevelt about",
     "sentiment": {
       "score": 0.375,
-      "numWords": 3,
+      "numWords": 4,
       "numHits": 1,
-      "average": 0.125,
+      "average": 0.09375,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
+      "by",
+      "eleanor",
+      "roosevelt",
+      "about"
     ],
-    "_id": "66c255a1319c55b550337558"
+    "_id": "66c25a2f544ef0254018ba72"
   },
   {
-    "originalText": "Shakespeare's Sonnets\n\n£20.66\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "shakespeares sonnets stock add basket",
-    "sentiment": {
-      "score": 0.625,
-      "numWords": 5,
-      "numHits": 2,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "shakespeares",
-      "sonnets",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337559"
-  },
-  {
-    "originalText": "Shakespeare's Sonnets",
-    "preprocessedText": "shakespeares sonnets",
+    "originalText": "Tags: misattributed-eleanor-roosevelt",
+    "preprocessedText": "tags misattributedeleanorroosevelt",
     "sentiment": {
       "score": 0.25,
       "numWords": 2,
@@ -850,104 +791,18 @@
     },
     "entities": [],
     "keywords": [
-      "shakespeares",
-      "sonnets"
+      "tags",
+      "misattributedeleanorroosevelt"
     ],
-    "_id": "66c255a1319c55b55033755a"
+    "_id": "66c25a2f544ef0254018ba73"
   },
   {
-    "originalText": "£20.66\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033755b"
-  },
-  {
-    "originalText": "Set Me Free\n\n£17.46\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "set me free stock add basket",
-    "sentiment": {
-      "score": 0.125,
-      "numWords": 6,
-      "numHits": 2,
-      "average": 0.020833333333333332,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "set",
-      "me",
-      "free",
-      "stock",
-      "add"
-    ],
-    "_id": "66c255a1319c55b55033755c"
-  },
-  {
-    "originalText": "£17.46\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033755d"
-  },
-  {
-    "originalText": "Scott Pilgrim's Precious Little ...\n\n£52.29\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "scott pilgrims precious little stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 7,
-      "numHits": 3,
-      "average": 0.05357142857142857,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "scott",
-      "pilgrims",
-      "precious",
-      "little",
-      "stock"
-    ],
-    "_id": "66c255a1319c55b55033755e"
-  },
-  {
-    "originalText": "Scott Pilgrim's Precious Little ...",
-    "preprocessedText": "scott pilgrims precious little ",
+    "originalText": "misattributed-eleanor-roosevelt",
+    "preprocessedText": "misattributedeleanorroosevelt",
     "sentiment": {
       "score": 0,
-      "numWords": 4,
-      "numHits": 2,
+      "numWords": 1,
+      "numHits": 0,
       "average": 0,
       "type": "senticon",
       "locale": "en",
@@ -955,146 +810,57 @@
     },
     "entities": [],
     "keywords": [
-      "scott",
-      "pilgrims",
-      "precious",
-      "little",
-      ""
+      "misattributedeleanorroosevelt"
     ],
-    "_id": "66c255a1319c55b55033755f"
+    "_id": "66c25a2f544ef0254018ba74"
   },
   {
-    "originalText": "£52.29\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
+    "originalText": "“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile",
+    "preprocessedText": "day without sunshine like you know night by steve martin about tags humor obvious simile",
     "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
+      "score": 0.9689999999999999,
+      "numWords": 15,
+      "numHits": 7,
+      "average": 0.06459999999999999,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
+      "day",
+      "without",
+      "sunshine",
+      "like",
+      "you"
     ],
-    "_id": "66c255a1319c55b550337560"
+    "_id": "66c25a2f544ef0254018ba75"
   },
   {
-    "originalText": "Rip it Up and ...\n\n£35.02\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "rip it up stock add basket",
+    "originalText": "“A day without sunshine is like, you know, night.”",
+    "preprocessedText": "day without sunshine like you know night",
     "sentiment": {
-      "score": 0.719,
-      "numWords": 6,
-      "numHits": 2,
-      "average": 0.11983333333333333,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "rip",
-      "it",
-      "up",
-      "stock",
-      "add"
-    ],
-    "_id": "66c255a1319c55b550337561"
-  },
-  {
-    "originalText": "£35.02\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337562"
-  },
-  {
-    "originalText": "Our Band Could Be ...\n\n£57.25\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "our band could be stock add basket",
-    "sentiment": {
-      "score": 0.688,
+      "score": 0.344,
       "numWords": 7,
-      "numHits": 2,
-      "average": 0.09828571428571428,
+      "numHits": 3,
+      "average": 0.04914285714285714,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "our",
-      "band",
-      "could",
-      "be",
-      "stock"
+      "day",
+      "without",
+      "sunshine",
+      "like",
+      "you"
     ],
-    "_id": "66c255a1319c55b550337563"
+    "_id": "66c25a2f544ef0254018ba76"
   },
   {
-    "originalText": "Our Band Could Be ...",
-    "preprocessedText": "our band could be ",
-    "sentiment": {
-      "score": 0.313,
-      "numWords": 4,
-      "numHits": 1,
-      "average": 0.07825,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "our",
-      "band",
-      "could",
-      "be",
-      ""
-    ],
-    "_id": "66c255a1319c55b550337564"
-  },
-  {
-    "originalText": "£57.25\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337565"
-  },
-  {
-    "originalText": "Olio\n\n£23.88\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "olio stock add basket",
+    "originalText": "by Steve Martin (about)",
+    "preprocessedText": "by steve martin about",
     "sentiment": {
       "score": 0.375,
       "numWords": 4,
@@ -1106,167 +872,20 @@
     },
     "entities": [],
     "keywords": [
-      "olio",
-      "stock",
-      "add",
-      "basket"
+      "by",
+      "steve",
+      "martin",
+      "about"
     ],
-    "_id": "66c255a1319c55b550337566"
+    "_id": "66c25a2f544ef0254018ba77"
   },
   {
-    "originalText": "£23.88\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b550337567"
-  },
-  {
-    "originalText": "Mesaerion: The Best Science ...\n\n£37.59\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "mesaerion best science stock add basket",
-    "sentiment": {
-      "score": 1.001,
-      "numWords": 6,
-      "numHits": 3,
-      "average": 0.1668333333333333,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "mesaerion",
-      "best",
-      "science",
-      "stock",
-      "add"
-    ],
-    "_id": "66c255a1319c55b550337568"
-  },
-  {
-    "originalText": "Mesaerion: The Best Science ...",
-    "preprocessedText": "mesaerion best science ",
-    "sentiment": {
-      "score": 0.626,
-      "numWords": 3,
-      "numHits": 2,
-      "average": 0.20866666666666667,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "mesaerion",
-      "best",
-      "science",
-      ""
-    ],
-    "_id": "66c255a1319c55b550337569"
-  },
-  {
-    "originalText": "£37.59\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033756a"
-  },
-  {
-    "originalText": "Libertarianism for Beginners\n\n£51.33\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "libertarianism beginners stock add basket",
-    "sentiment": {
-      "score": 0.625,
-      "numWords": 5,
-      "numHits": 2,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "libertarianism",
-      "beginners",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033756b"
-  },
-  {
-    "originalText": "Libertarianism for Beginners",
-    "preprocessedText": "libertarianism beginners",
+    "originalText": "Tags: humor obvious simile",
+    "preprocessedText": "tags humor obvious simile",
     "sentiment": {
       "score": 0.25,
-      "numWords": 2,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "libertarianism",
-      "beginners"
-    ],
-    "_id": "66c255a1319c55b55033756c"
-  },
-  {
-    "originalText": "£51.33\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 3,
-      "numHits": 1,
-      "average": 0.125,
-      "type": "senticon",
-      "locale": "en",
-      "vote": "positive"
-    },
-    "entities": [],
-    "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
-    ],
-    "_id": "66c255a1319c55b55033756d"
-  },
-  {
-    "originalText": "It's Only the Himalayas\n\n£45.17\n\n In stock\n\nAdd to basket",
-    "preprocessedText": "its only himalayas stock add basket",
-    "sentiment": {
-      "score": 0.375,
-      "numWords": 6,
-      "numHits": 1,
+      "numWords": 4,
+      "numHits": 3,
       "average": 0.0625,
       "type": "senticon",
       "locale": "en",
@@ -1274,17 +893,60 @@
     },
     "entities": [],
     "keywords": [
-      "its",
-      "only",
-      "himalayas",
-      "stock",
-      "add"
+      "tags",
+      "humor",
+      "obvious",
+      "simile"
     ],
-    "_id": "66c255a1319c55b55033756e"
+    "_id": "66c25a2f544ef0254018ba78"
   },
   {
-    "originalText": "It's Only the Himalayas",
-    "preprocessedText": "its only himalayas",
+    "originalText": "Top Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "top ten tags love inspirational life humor books reading friendship friends truth simile",
+    "sentiment": {
+      "score": 2.438,
+      "numWords": 13,
+      "numHits": 8,
+      "average": 0.18753846153846154,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "top",
+      "ten",
+      "tags",
+      "love",
+      "inspirational"
+    ],
+    "_id": "66c25a2f544ef0254018ba79"
+  },
+  {
+    "originalText": "Quotes by: GoodReads.com\n\nMade with ❤ by Zyte",
+    "preprocessedText": "quotes by goodreadscom made by zyte",
+    "sentiment": {
+      "score": 0.333,
+      "numWords": 6,
+      "numHits": 1,
+      "average": 0.0555,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "quotes",
+      "goodreadscom",
+      "made",
+      "zyte"
+    ],
+    "_id": "66c25a2f544ef0254018ba7a"
+  },
+  {
+    "originalText": "Quotes by: GoodReads.com",
+    "preprocessedText": "quotes by goodreadscom",
     "sentiment": {
       "score": 0,
       "numWords": 3,
@@ -1296,18 +958,796 @@
     },
     "entities": [],
     "keywords": [
-      "its",
-      "only",
-      "himalayas"
+      "quotes",
+      "by",
+      "goodreadscom"
     ],
-    "_id": "66c255a1319c55b55033756f"
+    "_id": "66c25a2f544ef0254018ba7b"
   },
   {
-    "originalText": "£45.17\n\n In stock\n\nAdd to basket",
-    "preprocessedText": " stock add basket",
+    "originalText": "Quotes to Scrape\n\nLogin\n\n“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →\nTop Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "quotes scrape login world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next top ten tags love inspirational life humor books reading friendship friends truth simile",
+    "sentiment": {
+      "score": -22.426000000000002,
+      "numWords": 231,
+      "numHits": 101,
+      "average": -0.09708225108225109,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "by",
+      "about",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018ba7c"
+  },
+  {
+    "originalText": "Quotes to Scrape\n\nLogin",
+    "preprocessedText": "quotes scrape login",
+    "sentiment": {
+      "score": -0.344,
+      "numWords": 3,
+      "numHits": 1,
+      "average": -0.11466666666666665,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "quotes",
+      "scrape",
+      "login"
+    ],
+    "_id": "66c25a2f544ef0254018ba7d"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →\nTop Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next top ten tags love inspirational life humor books reading friendship friends truth simile",
+    "sentiment": {
+      "score": -22.082000000000004,
+      "numWords": 228,
+      "numHits": 100,
+      "average": -0.09685087719298248,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "by",
+      "about",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018ba7e"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next ",
+    "sentiment": {
+      "score": -19.644000000000005,
+      "numWords": 215,
+      "numHits": 92,
+      "average": -0.09136744186046514,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "about",
+      "tags",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018ba7f"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world",
+    "sentiment": {
+      "score": -0.438,
+      "numWords": 27,
+      "numHits": 12,
+      "average": -0.01622222222222222,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "thinking",
+      "world",
+      "it",
+      "our",
+      "as"
+    ],
+    "_id": "66c25a2f544ef0254018ba80"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 18,
+      "numHits": 7,
+      "average": 0.027777777777777776,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "it",
+      "our",
+      "thinking",
+      "world",
+      "as"
+    ],
+    "_id": "66c25a2f544ef0254018ba81"
+  },
+  {
+    "originalText": "by Albert Einstein (about)",
+    "preprocessedText": "by albert einstein about",
     "sentiment": {
       "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "albert",
+      "einstein",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba82"
+  },
+  {
+    "originalText": "Tags: change deep-thoughts thinking world",
+    "preprocessedText": "tags change deepthoughts thinking world",
+    "sentiment": {
+      "score": 0.563,
+      "numWords": 5,
+      "numHits": 4,
+      "average": 0.11259999999999999,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "change",
+      "deepthoughts",
+      "thinking",
+      "world"
+    ],
+    "_id": "66c25a2f544ef0254018ba83"
+  },
+  {
+    "originalText": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices",
+    "preprocessedText": "it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices",
+    "sentiment": {
+      "score": 2.125,
+      "numWords": 22,
+      "numHits": 7,
+      "average": 0.09659090909090909,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "our",
+      "choices",
+      "abilities",
+      "it",
+      "harry"
+    ],
+    "_id": "66c25a2f544ef0254018ba84"
+  },
+  {
+    "originalText": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”",
+    "preprocessedText": "it our choices harry that show what we truly are far more than our abilities",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 15,
+      "numHits": 3,
+      "average": 0.041666666666666664,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "our",
+      "it",
+      "choices",
+      "harry",
+      "that"
+    ],
+    "_id": "66c25a2f544ef0254018ba85"
+  },
+  {
+    "originalText": "by J.K. Rowling (about)",
+    "preprocessedText": "by jk rowling about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "jk",
+      "rowling",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba86"
+  },
+  {
+    "originalText": "Tags: abilities choices",
+    "preprocessedText": "tags abilities choices",
+    "sentiment": {
+      "score": 1.125,
       "numWords": 3,
+      "numHits": 3,
+      "average": 0.375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "abilities",
+      "choices"
+    ],
+    "_id": "66c25a2f544ef0254018ba87"
+  },
+  {
+    "originalText": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles",
+    "preprocessedText": "there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles",
+    "sentiment": {
+      "score": 1.5830000000000002,
+      "numWords": 28,
+      "numHits": 6,
+      "average": 0.05653571428571429,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "miracle",
+      "live",
+      "life",
+      "as",
+      "though"
+    ],
+    "_id": "66c25a2f544ef0254018ba88"
+  },
+  {
+    "originalText": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”",
+    "preprocessedText": "there are only two ways live your life one as though nothing miracle other as though everything miracle",
+    "sentiment": {
+      "score": 0.22899999999999998,
+      "numWords": 18,
+      "numHits": 2,
+      "average": 0.012722222222222222,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "as",
+      "though",
+      "miracle",
+      "there",
+      "are"
+    ],
+    "_id": "66c25a2f544ef0254018ba89"
+  },
+  {
+    "originalText": "Tags: inspirational life live miracle miracles",
+    "preprocessedText": "tags inspirational life live miracle miracles",
+    "sentiment": {
+      "score": 0.979,
+      "numWords": 6,
+      "numHits": 3,
+      "average": 0.16316666666666665,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "inspirational",
+      "life",
+      "live",
+      "miracle"
+    ],
+    "_id": "66c25a2f544ef0254018ba8a"
+  },
+  {
+    "originalText": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor",
+    "preprocessedText": "person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor",
+    "sentiment": {
+      "score": -2.0250000000000004,
+      "numWords": 25,
+      "numHits": 16,
+      "average": -0.08100000000000002,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "person",
+      "it",
+      "gentleman",
+      "or"
+    ],
+    "_id": "66c25a2f544ef0254018ba8b"
+  },
+  {
+    "originalText": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”",
+    "preprocessedText": "person be it gentleman or lady who has not pleasure good novel must be intolerably stupid",
+    "sentiment": {
+      "score": -0.5250000000000001,
+      "numWords": 16,
+      "numHits": 11,
+      "average": -0.03281250000000001,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "person",
+      "it",
+      "gentleman",
+      "or"
+    ],
+    "_id": "66c25a2f544ef0254018ba8c"
+  },
+  {
+    "originalText": "by Jane Austen (about)",
+    "preprocessedText": "by jane austen about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "jane",
+      "austen",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba8d"
+  },
+  {
+    "originalText": "Tags: aliteracy books classic humor",
+    "preprocessedText": "tags aliteracy books classic humor",
+    "sentiment": {
+      "score": 1.125,
+      "numWords": 5,
+      "numHits": 4,
+      "average": 0.225,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "aliteracy",
+      "books",
+      "classic",
+      "humor"
+    ],
+    "_id": "66c25a2f544ef0254018ba8e"
+  },
+  {
+    "originalText": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational",
+    "preprocessedText": "imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational",
+    "sentiment": {
+      "score": 2.0380000000000003,
+      "numWords": 19,
+      "numHits": 8,
+      "average": 0.10726315789473685,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "absolutely",
+      "imperfection",
+      "beauty",
+      "madness",
+      "genius"
+    ],
+    "_id": "66c25a2f544ef0254018ba8f"
+  },
+  {
+    "originalText": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”",
+    "preprocessedText": "imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring",
+    "sentiment": {
+      "score": 1.163,
+      "numWords": 12,
+      "numHits": 5,
+      "average": 0.09691666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "absolutely",
+      "imperfection",
+      "beauty",
+      "madness",
+      "genius"
+    ],
+    "_id": "66c25a2f544ef0254018ba90"
+  },
+  {
+    "originalText": "by Marilyn Monroe (about)",
+    "preprocessedText": "by marilyn monroe about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "marilyn",
+      "monroe",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba91"
+  },
+  {
+    "originalText": "Tags: be-yourself inspirational",
+    "preprocessedText": "tags beyourself inspirational",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 3,
+      "numHits": 2,
+      "average": 0.16666666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "beyourself",
+      "inspirational"
+    ],
+    "_id": "66c25a2f544ef0254018ba92"
+  },
+  {
+    "originalText": "“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value",
+    "preprocessedText": "try not become man success rather become man value by albert einstein about tags adulthood success value",
+    "sentiment": {
+      "score": -4.5009999999999994,
+      "numWords": 17,
+      "numHits": 12,
+      "average": -0.2647647058823529,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "become",
+      "man",
+      "success",
+      "value",
+      "try"
+    ],
+    "_id": "66c25a2f544ef0254018ba93"
+  },
+  {
+    "originalText": "“Try not to become a man of success. Rather become a man of value.”",
+    "preprocessedText": "try not become man success rather become man value",
+    "sentiment": {
+      "score": -2.876,
+      "numWords": 9,
+      "numHits": 8,
+      "average": -0.31955555555555554,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "become",
+      "man",
+      "try",
+      "not",
+      "success"
+    ],
+    "_id": "66c25a2f544ef0254018ba94"
+  },
+  {
+    "originalText": "Tags: adulthood success value",
+    "preprocessedText": "tags adulthood success value",
+    "sentiment": {
+      "score": 1.25,
+      "numWords": 4,
+      "numHits": 3,
+      "average": 0.3125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "adulthood",
+      "success",
+      "value"
+    ],
+    "_id": "66c25a2f544ef0254018ba95"
+  },
+  {
+    "originalText": "“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love",
+    "preprocessedText": "it better be hated what you are than be loved what you are not by andr gide about tags life love",
+    "sentiment": {
+      "score": -0.3320000000000001,
+      "numWords": 21,
+      "numHits": 9,
+      "average": -0.01580952380952381,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "what",
+      "you",
+      "are",
+      "it"
+    ],
+    "_id": "66c25a2f544ef0254018ba96"
+  },
+  {
+    "originalText": "“It is better to be hated for what you are than to be loved for what you are not.”",
+    "preprocessedText": "it better be hated what you are than be loved what you are not",
+    "sentiment": {
+      "score": 0.7929999999999999,
+      "numWords": 14,
+      "numHits": 6,
+      "average": 0.05664285714285714,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "what",
+      "you",
+      "are",
+      "it"
+    ],
+    "_id": "66c25a2f544ef0254018ba97"
+  },
+  {
+    "originalText": "by André Gide (about)",
+    "preprocessedText": "by andr gide about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "andr",
+      "gide",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba98"
+  },
+  {
+    "originalText": "“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased",
+    "preprocessedText": "i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased",
+    "sentiment": {
+      "score": -1.202,
+      "numWords": 20,
+      "numHits": 9,
+      "average": -0.0601,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "edison",
+      "i",
+      "have",
+      "not",
+      "failed"
+    ],
+    "_id": "66c25a2f544ef0254018ba99"
+  },
+  {
+    "originalText": "“I have not failed. I've just found 10,000 ways that won't work.”",
+    "preprocessedText": "i have not failed ive just found ways that wont work",
+    "sentiment": {
+      "score": -0.327,
+      "numWords": 11,
+      "numHits": 6,
+      "average": -0.029727272727272727,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "i",
+      "have",
+      "not",
+      "failed",
+      "ive"
+    ],
+    "_id": "66c25a2f544ef0254018ba9a"
+  },
+  {
+    "originalText": "by Thomas A. Edison (about)",
+    "preprocessedText": "by thomas edison about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "thomas",
+      "edison",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba9b"
+  },
+  {
+    "originalText": "Tags: edison failure inspirational paraphrased",
+    "preprocessedText": "tags edison failure inspirational paraphrased",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.1,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "edison",
+      "failure",
+      "inspirational",
+      "paraphrased"
+    ],
+    "_id": "66c25a2f544ef0254018ba9c"
+  },
+  {
+    "originalText": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt",
+    "preprocessedText": "woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": -0.781,
+      "numWords": 20,
+      "numHits": 6,
+      "average": -0.03905,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "woman",
+      "like",
+      "tea",
+      "bag",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018ba9d"
+  },
+  {
+    "originalText": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”",
+    "preprocessedText": "woman like tea bag you never know how strong it until its hot water",
+    "sentiment": {
+      "score": -0.15600000000000003,
+      "numWords": 14,
+      "numHits": 4,
+      "average": -0.011142857142857145,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "woman",
+      "like",
+      "tea",
+      "bag",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018ba9e"
+  },
+  {
+    "originalText": "by Eleanor Roosevelt (about)",
+    "preprocessedText": "by eleanor roosevelt about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "eleanor",
+      "roosevelt",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018ba9f"
+  },
+  {
+    "originalText": "Tags: misattributed-eleanor-roosevelt",
+    "preprocessedText": "tags misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 2,
       "numHits": 1,
       "average": 0.125,
       "type": "senticon",
@@ -1316,16 +1756,162 @@
     },
     "entities": [],
     "keywords": [
-      "",
-      "stock",
-      "add",
-      "basket"
+      "tags",
+      "misattributedeleanorroosevelt"
     ],
-    "_id": "66c255a1319c55b550337570"
+    "_id": "66c25a2f544ef0254018baa0"
   },
   {
-    "originalText": "window.jQuery || document.write('<script src=\"static/oscar/js/jquery/jquery-1.9.1.min.js\"><\\/script>')",
-    "preprocessedText": "windowjquery documentwritescript srcstaticoscarjsjqueryjqueryminjsscript",
+    "originalText": "misattributed-eleanor-roosevelt",
+    "preprocessedText": "misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": 0,
+      "numWords": 1,
+      "numHits": 0,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "keywords": [
+      "misattributedeleanorroosevelt"
+    ],
+    "_id": "66c25a2f544ef0254018baa1"
+  },
+  {
+    "originalText": "“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile",
+    "preprocessedText": "day without sunshine like you know night by steve martin about tags humor obvious simile",
+    "sentiment": {
+      "score": 0.9689999999999999,
+      "numWords": 15,
+      "numHits": 7,
+      "average": 0.06459999999999999,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "day",
+      "without",
+      "sunshine",
+      "like",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018baa2"
+  },
+  {
+    "originalText": "“A day without sunshine is like, you know, night.”",
+    "preprocessedText": "day without sunshine like you know night",
+    "sentiment": {
+      "score": 0.344,
+      "numWords": 7,
+      "numHits": 3,
+      "average": 0.04914285714285714,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "day",
+      "without",
+      "sunshine",
+      "like",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018baa3"
+  },
+  {
+    "originalText": "by Steve Martin (about)",
+    "preprocessedText": "by steve martin about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "steve",
+      "martin",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018baa4"
+  },
+  {
+    "originalText": "Tags: humor obvious simile",
+    "preprocessedText": "tags humor obvious simile",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 4,
+      "numHits": 3,
+      "average": 0.0625,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "humor",
+      "obvious",
+      "simile"
+    ],
+    "_id": "66c25a2f544ef0254018baa5"
+  },
+  {
+    "originalText": "Top Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "top ten tags love inspirational life humor books reading friendship friends truth simile",
+    "sentiment": {
+      "score": 2.438,
+      "numWords": 13,
+      "numHits": 8,
+      "average": 0.18753846153846154,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "top",
+      "ten",
+      "tags",
+      "love",
+      "inspirational"
+    ],
+    "_id": "66c25a2f544ef0254018baa6"
+  },
+  {
+    "originalText": "Quotes by: GoodReads.com\n\nMade with ❤ by Zyte",
+    "preprocessedText": "quotes by goodreadscom made by zyte",
+    "sentiment": {
+      "score": 0.333,
+      "numWords": 6,
+      "numHits": 1,
+      "average": 0.0555,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "quotes",
+      "goodreadscom",
+      "made",
+      "zyte"
+    ],
+    "_id": "66c25a2f544ef0254018baa7"
+  },
+  {
+    "originalText": "Quotes by: GoodReads.com",
+    "preprocessedText": "quotes by goodreadscom",
     "sentiment": {
       "score": 0,
       "numWords": 3,
@@ -1337,31 +1923,975 @@
     },
     "entities": [],
     "keywords": [
-      "windowjquery",
-      "documentwritescript",
-      "srcstaticoscarjsjqueryjqueryminjsscript"
+      "quotes",
+      "by",
+      "goodreadscom"
     ],
-    "_id": "66c255a1319c55b550337571"
+    "_id": "66c25a2f544ef0254018baa8"
   },
   {
-    "originalText": "$(function() {\n                \n    \n    \n    oscar.init();\n\n    oscar.search.init();\n\n            });",
-    "preprocessedText": "function oscarinit oscarsearchinit ",
+    "originalText": "Quotes to Scrape\n\nLogin\n\n“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →\nTop Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "quotes scrape login world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next top ten tags love inspirational life humor books reading friendship friends truth simile",
     "sentiment": {
-      "score": 0.25,
+      "score": -22.426000000000002,
+      "numWords": 231,
+      "numHits": 101,
+      "average": -0.09708225108225109,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "by",
+      "about",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018baa9"
+  },
+  {
+    "originalText": "Quotes to Scrape\n\nLogin",
+    "preprocessedText": "quotes scrape login",
+    "sentiment": {
+      "score": -0.344,
       "numWords": 3,
       "numHits": 1,
-      "average": 0.08333333333333333,
+      "average": -0.11466666666666665,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "quotes",
+      "scrape",
+      "login"
+    ],
+    "_id": "66c25a2f544ef0254018baaa"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →\nTop Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next top ten tags love inspirational life humor books reading friendship friends truth simile",
+    "sentiment": {
+      "score": -22.082000000000004,
+      "numWords": 228,
+      "numHits": 100,
+      "average": -0.09685087719298248,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "by",
+      "about",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018baab"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world\n“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices\n“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles\n“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor\n“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational\n“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value\n“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love\n“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased\n“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt\n“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile\nNext →",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational try not become man success rather become man value by albert einstein about tags adulthood success value it better be hated what you are than be loved what you are not by andr gide about tags life love i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt day without sunshine like you know night by steve martin about tags humor obvious simile next ",
+    "sentiment": {
+      "score": -19.644000000000005,
+      "numWords": 215,
+      "numHits": 92,
+      "average": -0.09136744186046514,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "about",
+      "tags",
+      "it",
+      "be"
+    ],
+    "_id": "66c25a2f544ef0254018baac"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”\nby Albert Einstein (about)\nTags: change deep-thoughts thinking world",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking by albert einstein about tags change deepthoughts thinking world",
+    "sentiment": {
+      "score": -0.438,
+      "numWords": 27,
+      "numHits": 12,
+      "average": -0.01622222222222222,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "thinking",
+      "world",
+      "it",
+      "our",
+      "as"
+    ],
+    "_id": "66c25a2f544ef0254018baad"
+  },
+  {
+    "originalText": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
+    "preprocessedText": "world as we have created it process our thinking it cannot be changed without changing our thinking",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 18,
+      "numHits": 7,
+      "average": 0.027777777777777776,
       "type": "senticon",
       "locale": "en",
       "vote": "positive"
     },
     "entities": [],
     "keywords": [
-      "function",
-      "oscarinit",
-      "oscarsearchinit",
-      ""
+      "it",
+      "our",
+      "thinking",
+      "world",
+      "as"
     ],
-    "_id": "66c255a1319c55b550337572"
+    "_id": "66c25a2f544ef0254018baae"
+  },
+  {
+    "originalText": "by Albert Einstein (about)",
+    "preprocessedText": "by albert einstein about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "albert",
+      "einstein",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018baaf"
+  },
+  {
+    "originalText": "Tags: change deep-thoughts thinking world",
+    "preprocessedText": "tags change deepthoughts thinking world",
+    "sentiment": {
+      "score": 0.563,
+      "numWords": 5,
+      "numHits": 4,
+      "average": 0.11259999999999999,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "change",
+      "deepthoughts",
+      "thinking",
+      "world"
+    ],
+    "_id": "66c25a2f544ef0254018bab0"
+  },
+  {
+    "originalText": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”\nby J.K. Rowling (about)\nTags: abilities choices",
+    "preprocessedText": "it our choices harry that show what we truly are far more than our abilities by jk rowling about tags abilities choices",
+    "sentiment": {
+      "score": 2.125,
+      "numWords": 22,
+      "numHits": 7,
+      "average": 0.09659090909090909,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "our",
+      "choices",
+      "abilities",
+      "it",
+      "harry"
+    ],
+    "_id": "66c25a2f544ef0254018bab1"
+  },
+  {
+    "originalText": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”",
+    "preprocessedText": "it our choices harry that show what we truly are far more than our abilities",
+    "sentiment": {
+      "score": 0.625,
+      "numWords": 15,
+      "numHits": 3,
+      "average": 0.041666666666666664,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "our",
+      "it",
+      "choices",
+      "harry",
+      "that"
+    ],
+    "_id": "66c25a2f544ef0254018bab2"
+  },
+  {
+    "originalText": "by J.K. Rowling (about)",
+    "preprocessedText": "by jk rowling about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "jk",
+      "rowling",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018bab3"
+  },
+  {
+    "originalText": "Tags: abilities choices",
+    "preprocessedText": "tags abilities choices",
+    "sentiment": {
+      "score": 1.125,
+      "numWords": 3,
+      "numHits": 3,
+      "average": 0.375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "abilities",
+      "choices"
+    ],
+    "_id": "66c25a2f544ef0254018bab4"
+  },
+  {
+    "originalText": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”\nby Albert Einstein (about)\nTags: inspirational life live miracle miracles",
+    "preprocessedText": "there are only two ways live your life one as though nothing miracle other as though everything miracle by albert einstein about tags inspirational life live miracle miracles",
+    "sentiment": {
+      "score": 1.5830000000000002,
+      "numWords": 28,
+      "numHits": 6,
+      "average": 0.05653571428571429,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "miracle",
+      "live",
+      "life",
+      "as",
+      "though"
+    ],
+    "_id": "66c25a2f544ef0254018bab5"
+  },
+  {
+    "originalText": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”",
+    "preprocessedText": "there are only two ways live your life one as though nothing miracle other as though everything miracle",
+    "sentiment": {
+      "score": 0.22899999999999998,
+      "numWords": 18,
+      "numHits": 2,
+      "average": 0.012722222222222222,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "as",
+      "though",
+      "miracle",
+      "there",
+      "are"
+    ],
+    "_id": "66c25a2f544ef0254018bab6"
+  },
+  {
+    "originalText": "Tags: inspirational life live miracle miracles",
+    "preprocessedText": "tags inspirational life live miracle miracles",
+    "sentiment": {
+      "score": 0.979,
+      "numWords": 6,
+      "numHits": 3,
+      "average": 0.16316666666666665,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "inspirational",
+      "life",
+      "live",
+      "miracle"
+    ],
+    "_id": "66c25a2f544ef0254018bab7"
+  },
+  {
+    "originalText": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”\nby Jane Austen (about)\nTags: aliteracy books classic humor",
+    "preprocessedText": "person be it gentleman or lady who has not pleasure good novel must be intolerably stupid by jane austen about tags aliteracy books classic humor",
+    "sentiment": {
+      "score": -2.0250000000000004,
+      "numWords": 25,
+      "numHits": 16,
+      "average": -0.08100000000000002,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "person",
+      "it",
+      "gentleman",
+      "or"
+    ],
+    "_id": "66c25a2f544ef0254018bab8"
+  },
+  {
+    "originalText": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”",
+    "preprocessedText": "person be it gentleman or lady who has not pleasure good novel must be intolerably stupid",
+    "sentiment": {
+      "score": -0.5250000000000001,
+      "numWords": 16,
+      "numHits": 11,
+      "average": -0.03281250000000001,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "person",
+      "it",
+      "gentleman",
+      "or"
+    ],
+    "_id": "66c25a2f544ef0254018bab9"
+  },
+  {
+    "originalText": "by Jane Austen (about)",
+    "preprocessedText": "by jane austen about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "jane",
+      "austen",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018baba"
+  },
+  {
+    "originalText": "Tags: aliteracy books classic humor",
+    "preprocessedText": "tags aliteracy books classic humor",
+    "sentiment": {
+      "score": 1.125,
+      "numWords": 5,
+      "numHits": 4,
+      "average": 0.225,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "aliteracy",
+      "books",
+      "classic",
+      "humor"
+    ],
+    "_id": "66c25a2f544ef0254018babb"
+  },
+  {
+    "originalText": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”\nby Marilyn Monroe (about)\nTags: be-yourself inspirational",
+    "preprocessedText": "imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring by marilyn monroe about tags beyourself inspirational",
+    "sentiment": {
+      "score": 2.0380000000000003,
+      "numWords": 19,
+      "numHits": 8,
+      "average": 0.10726315789473685,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "absolutely",
+      "imperfection",
+      "beauty",
+      "madness",
+      "genius"
+    ],
+    "_id": "66c25a2f544ef0254018babc"
+  },
+  {
+    "originalText": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”",
+    "preprocessedText": "imperfection beauty madness genius its better be absolutely ridiculous than absolutely boring",
+    "sentiment": {
+      "score": 1.163,
+      "numWords": 12,
+      "numHits": 5,
+      "average": 0.09691666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "absolutely",
+      "imperfection",
+      "beauty",
+      "madness",
+      "genius"
+    ],
+    "_id": "66c25a2f544ef0254018babd"
+  },
+  {
+    "originalText": "by Marilyn Monroe (about)",
+    "preprocessedText": "by marilyn monroe about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "marilyn",
+      "monroe",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018babe"
+  },
+  {
+    "originalText": "Tags: be-yourself inspirational",
+    "preprocessedText": "tags beyourself inspirational",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 3,
+      "numHits": 2,
+      "average": 0.16666666666666666,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "beyourself",
+      "inspirational"
+    ],
+    "_id": "66c25a2f544ef0254018babf"
+  },
+  {
+    "originalText": "“Try not to become a man of success. Rather become a man of value.”\nby Albert Einstein (about)\nTags: adulthood success value",
+    "preprocessedText": "try not become man success rather become man value by albert einstein about tags adulthood success value",
+    "sentiment": {
+      "score": -4.5009999999999994,
+      "numWords": 17,
+      "numHits": 12,
+      "average": -0.2647647058823529,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "become",
+      "man",
+      "success",
+      "value",
+      "try"
+    ],
+    "_id": "66c25a2f544ef0254018bac0"
+  },
+  {
+    "originalText": "“Try not to become a man of success. Rather become a man of value.”",
+    "preprocessedText": "try not become man success rather become man value",
+    "sentiment": {
+      "score": -2.876,
+      "numWords": 9,
+      "numHits": 8,
+      "average": -0.31955555555555554,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "become",
+      "man",
+      "try",
+      "not",
+      "success"
+    ],
+    "_id": "66c25a2f544ef0254018bac1"
+  },
+  {
+    "originalText": "Tags: adulthood success value",
+    "preprocessedText": "tags adulthood success value",
+    "sentiment": {
+      "score": 1.25,
+      "numWords": 4,
+      "numHits": 3,
+      "average": 0.3125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "adulthood",
+      "success",
+      "value"
+    ],
+    "_id": "66c25a2f544ef0254018bac2"
+  },
+  {
+    "originalText": "“It is better to be hated for what you are than to be loved for what you are not.”\nby André Gide (about)\nTags: life love",
+    "preprocessedText": "it better be hated what you are than be loved what you are not by andr gide about tags life love",
+    "sentiment": {
+      "score": -0.3320000000000001,
+      "numWords": 21,
+      "numHits": 9,
+      "average": -0.01580952380952381,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "what",
+      "you",
+      "are",
+      "it"
+    ],
+    "_id": "66c25a2f544ef0254018bac3"
+  },
+  {
+    "originalText": "“It is better to be hated for what you are than to be loved for what you are not.”",
+    "preprocessedText": "it better be hated what you are than be loved what you are not",
+    "sentiment": {
+      "score": 0.7929999999999999,
+      "numWords": 14,
+      "numHits": 6,
+      "average": 0.05664285714285714,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "be",
+      "what",
+      "you",
+      "are",
+      "it"
+    ],
+    "_id": "66c25a2f544ef0254018bac4"
+  },
+  {
+    "originalText": "by André Gide (about)",
+    "preprocessedText": "by andr gide about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "andr",
+      "gide",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018bac5"
+  },
+  {
+    "originalText": "“I have not failed. I've just found 10,000 ways that won't work.”\nby Thomas A. Edison (about)\nTags: edison failure inspirational paraphrased",
+    "preprocessedText": "i have not failed ive just found ways that wont work by thomas edison about tags edison failure inspirational paraphrased",
+    "sentiment": {
+      "score": -1.202,
+      "numWords": 20,
+      "numHits": 9,
+      "average": -0.0601,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "edison",
+      "i",
+      "have",
+      "not",
+      "failed"
+    ],
+    "_id": "66c25a2f544ef0254018bac6"
+  },
+  {
+    "originalText": "“I have not failed. I've just found 10,000 ways that won't work.”",
+    "preprocessedText": "i have not failed ive just found ways that wont work",
+    "sentiment": {
+      "score": -0.327,
+      "numWords": 11,
+      "numHits": 6,
+      "average": -0.029727272727272727,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "i",
+      "have",
+      "not",
+      "failed",
+      "ive"
+    ],
+    "_id": "66c25a2f544ef0254018bac7"
+  },
+  {
+    "originalText": "by Thomas A. Edison (about)",
+    "preprocessedText": "by thomas edison about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "thomas",
+      "edison",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018bac8"
+  },
+  {
+    "originalText": "Tags: edison failure inspirational paraphrased",
+    "preprocessedText": "tags edison failure inspirational paraphrased",
+    "sentiment": {
+      "score": 0.5,
+      "numWords": 5,
+      "numHits": 2,
+      "average": 0.1,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "edison",
+      "failure",
+      "inspirational",
+      "paraphrased"
+    ],
+    "_id": "66c25a2f544ef0254018bac9"
+  },
+  {
+    "originalText": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”\nby Eleanor Roosevelt (about)\nTags: misattributed-eleanor-roosevelt",
+    "preprocessedText": "woman like tea bag you never know how strong it until its hot water by eleanor roosevelt about tags misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": -0.781,
+      "numWords": 20,
+      "numHits": 6,
+      "average": -0.03905,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "woman",
+      "like",
+      "tea",
+      "bag",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018baca"
+  },
+  {
+    "originalText": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”",
+    "preprocessedText": "woman like tea bag you never know how strong it until its hot water",
+    "sentiment": {
+      "score": -0.15600000000000003,
+      "numWords": 14,
+      "numHits": 4,
+      "average": -0.011142857142857145,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "negative"
+    },
+    "entities": [],
+    "keywords": [
+      "woman",
+      "like",
+      "tea",
+      "bag",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018bacb"
+  },
+  {
+    "originalText": "by Eleanor Roosevelt (about)",
+    "preprocessedText": "by eleanor roosevelt about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "eleanor",
+      "roosevelt",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018bacc"
+  },
+  {
+    "originalText": "Tags: misattributed-eleanor-roosevelt",
+    "preprocessedText": "tags misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 2,
+      "numHits": 1,
+      "average": 0.125,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "misattributedeleanorroosevelt"
+    ],
+    "_id": "66c25a2f544ef0254018bacd"
+  },
+  {
+    "originalText": "misattributed-eleanor-roosevelt",
+    "preprocessedText": "misattributedeleanorroosevelt",
+    "sentiment": {
+      "score": 0,
+      "numWords": 1,
+      "numHits": 0,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "keywords": [
+      "misattributedeleanorroosevelt"
+    ],
+    "_id": "66c25a2f544ef0254018bace"
+  },
+  {
+    "originalText": "“A day without sunshine is like, you know, night.”\nby Steve Martin (about)\nTags: humor obvious simile",
+    "preprocessedText": "day without sunshine like you know night by steve martin about tags humor obvious simile",
+    "sentiment": {
+      "score": 0.9689999999999999,
+      "numWords": 15,
+      "numHits": 7,
+      "average": 0.06459999999999999,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "day",
+      "without",
+      "sunshine",
+      "like",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018bacf"
+  },
+  {
+    "originalText": "“A day without sunshine is like, you know, night.”",
+    "preprocessedText": "day without sunshine like you know night",
+    "sentiment": {
+      "score": 0.344,
+      "numWords": 7,
+      "numHits": 3,
+      "average": 0.04914285714285714,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "day",
+      "without",
+      "sunshine",
+      "like",
+      "you"
+    ],
+    "_id": "66c25a2f544ef0254018bad0"
+  },
+  {
+    "originalText": "by Steve Martin (about)",
+    "preprocessedText": "by steve martin about",
+    "sentiment": {
+      "score": 0.375,
+      "numWords": 4,
+      "numHits": 1,
+      "average": 0.09375,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "steve",
+      "martin",
+      "about"
+    ],
+    "_id": "66c25a2f544ef0254018bad1"
+  },
+  {
+    "originalText": "Tags: humor obvious simile",
+    "preprocessedText": "tags humor obvious simile",
+    "sentiment": {
+      "score": 0.25,
+      "numWords": 4,
+      "numHits": 3,
+      "average": 0.0625,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "tags",
+      "humor",
+      "obvious",
+      "simile"
+    ],
+    "_id": "66c25a2f544ef0254018bad2"
+  },
+  {
+    "originalText": "Top Ten tags\nlove\ninspirational\nlife\nhumor\nbooks\nreading\nfriendship\nfriends\ntruth\nsimile",
+    "preprocessedText": "top ten tags love inspirational life humor books reading friendship friends truth simile",
+    "sentiment": {
+      "score": 2.438,
+      "numWords": 13,
+      "numHits": 8,
+      "average": 0.18753846153846154,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "top",
+      "ten",
+      "tags",
+      "love",
+      "inspirational"
+    ],
+    "_id": "66c25a2f544ef0254018bad3"
+  },
+  {
+    "originalText": "Quotes by: GoodReads.com\n\nMade with ❤ by Zyte",
+    "preprocessedText": "quotes by goodreadscom made by zyte",
+    "sentiment": {
+      "score": 0.333,
+      "numWords": 6,
+      "numHits": 1,
+      "average": 0.0555,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "positive"
+    },
+    "entities": [],
+    "keywords": [
+      "by",
+      "quotes",
+      "goodreadscom",
+      "made",
+      "zyte"
+    ],
+    "_id": "66c25a2f544ef0254018bad4"
+  },
+  {
+    "originalText": "Quotes by: GoodReads.com",
+    "preprocessedText": "quotes by goodreadscom",
+    "sentiment": {
+      "score": 0,
+      "numWords": 3,
+      "numHits": 0,
+      "average": 0,
+      "type": "senticon",
+      "locale": "en",
+      "vote": "neutral"
+    },
+    "entities": [],
+    "keywords": [
+      "quotes",
+      "by",
+      "goodreadscom"
+    ],
+    "_id": "66c25a2f544ef0254018bad5"
   }
 ]
