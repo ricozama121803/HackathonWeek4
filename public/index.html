@@ -58,19 +58,21 @@
       background-color: #00e6a1;
       border-color: #00e6a1;
     }
+
     .next-page-div {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      
+      margin-top: 20px;
     }
+
     .next-page {
-      display: flex;
+      display: none;
       flex-direction: column;
       text-align: center;
       margin-top: 20px;
-      font: 500;
+      font-weight: 500;
     }
 
     /* Custom Spinner Container */
@@ -97,9 +99,6 @@
   </style>
   
 </head>
-<div class="next-page-div">
-<p class="next-page"><a href="http://localhost:3000/nlpResults.html">View Processed Data</a></p>
-</div>
 <body>
   <div class="container">
     <h1>Web Scraper</h1>
@@ -123,6 +122,11 @@
         <!-- Custom Spinner -->
         <div id="spinner-container" class="spinner-container">
           <img src="images/spinner.png" alt="Loading..." class="spinner-image">
+        </div>
+
+        <!-- Link to the next page -->
+        <div id="next-page-div" class="next-page-div">
+          <p class="next-page"><a id="next-page-link" href="nlpResults.html">View Processed Data</a></p>
         </div>
 
       </div>
@@ -155,7 +159,11 @@
         // Hide the spinner when scraping is complete
         document.getElementById('spinner-container').style.display = 'none';
 
-        alert(result.message);
+        // Enable the link and automatically redirect to the results page
+        const nextPageLink = document.getElementById('next-page-link');
+        nextPageLink.parentElement.style.display = 'block';
+        window.location.href = nextPageLink.href;
+
       } catch (error) {
         console.error('Error:', error);
 

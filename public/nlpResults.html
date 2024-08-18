@@ -7,7 +7,6 @@
     <title>Data Display</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,78 +20,57 @@
             align-items: center;
             background-color: #393e46;
             background-image: url('images/SeeThru.svg');
-            background-size: cover; /* Ensure the background covers the entire page */
-            background-position: center center; /* Center the background image */
-            background-repeat: no-repeat; /* Prevent the background from repeating */
-            min-height: 100vh; /* Ensures the content is centered even on larger screens */
-            backdrop-filter: blur(5px); /* Blur the background slightly */
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            backdrop-filter: blur(5px);
+            flex-direction: column;
+            box-sizing: border-box;
         }
 
         .container {
-            max-width: 600px; /* Max width for the container */
+            max-width: 600px;
             width: 100%;
-            padding: 0 20px; /* Padding for better spacing on smaller screens */
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 60px; /* Add margin to push the card down */
         }
 
         h2 {
-            text-align: center; /* Center the heading text */
-            color: #00ffb7; /* Add a matching color to the title */
-        }
-
-        .large-heading {
-            font-size: 2.5rem; /* Increase the size for this specific heading */
+            text-align: center;
+            color: #00ffb7;
+            margin-bottom: 20px;
         }
 
         .card {
-            width: 100%; /* Full width of the container */
-            min-width: 600px; /* Set a minimum width to prevent squishing */
-            padding: 20px; /* Add some padding inside the card for better spacing */
-            border-radius: 25px; /* Make the corners of the card more rounded */
-            box-shadow: 0 0 30px 15px rgba(0, 255, 183, 0.7); /* Stronger glow effect */
-            background-color: #222831; /* Darker card background for contrast */
-            color: #eeeeee; /* Light text color */
+            width: 100%;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0 0 30px 15px rgba(0, 255, 183, 0.7);
+            background-color: #222831;
+            color: #eeeeee;
+            overflow-y: auto;
+            max-height: 500px;
         }
 
-        .form-label {
-            color: #00ffb7; /* Matching color for labels */
-        }
-
-        .btn-primary {
-            background-color: #00ffb7;
-            border-color: #00ffb7;
-        }
-
-        .btn-primary:hover {
-            background-color: #00e6a1;
-            border-color: #00e6a1;
-        }
-
-        /* Style for the logo image */
-        .logo {
-            position: absolute;
-            top: 100px;  /* Adjust the top margin as needed */
-            left: -350px; /* Adjust the left margin as needed */
-            width: 250px; /* Adjust the width to stretch the image */
-            height: 250px; /* Adjust the height to stretch the image */
-            object-fit: cover; /* Ensures the image covers the entire area */
+        .list-group-item {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 
 <body>
-    <div class="container my-5">
-        <!-- Scraped Data Section without the card -->
+    <div class="container">
+        <!-- Scraped Data Section with title -->
         <h2 class="large-heading">Scraped Data with Sentiment Analysis</h2>
-        <ul id="scraped-list" class="list-group">
-            <!-- Scraped data will be displayed here -->
-        </ul>
 
         <!-- NLP Processed Data Section with the card -->
-        <div class="card shadow-sm mt-4">
+        <div class="card shadow-sm">
             <div class="card-body">
-                <div class="form-group">
-                    <textarea id="nlp-textarea" class="form-control" rows="10" readonly></textarea>
-                </div>
+                <ul id="scraped-list" class="list-group mb-4">
+                    <!-- Scraped data will be displayed here -->
+                </ul>
             </div>
         </div>
     </div>
@@ -100,74 +78,59 @@
     <!-- Bootstrap JS (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="app.js">
-
-
-    </script>
-
     <script>
-        async function fetchScrapedData() {
+        async function fetchNLPData() {
             try {
-                const response = await fetch("/data/scraped");
+                const response = await fetch("/data/nlp");
                 if (response.ok) {
                     const data = await response.json();
-                    return data;
+                    return data.nlpProcessedData;
                 } else {
-                    console.error("Failed to fetch scraped data:", response.statusText);
+                    console.error("Failed to fetch NLP data:", response.statusText);
                     return [];
                 }
             } catch (error) {
-                console.error("Error fetching scraped data:", error.message);
+                console.error("Error fetching NLP data:", error.message);
                 return [];
-            }
-        }
-        async function fetchNLPData() {
-            try {
-            const response = await fetch("/data/nlp");
-            if (response.ok) {
-                const data = await response.json();
-                return data.nlpProcessedData; // Extract the nlpProcessedData array from the response
-            } else {
-                console.error("Failed to fetch NLP data:", response.statusText);
-                return [];
-            }
-            } catch (error) {
-            console.error("Error fetching NLP data:", error.message);
-            return [];
             }
         }
 
         fetchNLPData().then(data => {
-        const list = document.getElementById('scraped-list');
-            data.forEach(item => {
-                // Create list item element for original text
-                const liOriginalText = document.createElement('li');
-                liOriginalText.textContent = `Original Text: ${item.originalText}`;
-                liOriginalText.className = "list-group-item";
-                liOriginalText.style.fontWeight = "normal"; 
-                liOriginalText.style.fontSize = "16px";
-                liOriginalText.style.color = "#ffffff";      
-                liOriginalText.style.backgroundColor = "#333333"; 
-                liOriginalText.style.padding = "10px";       
+    const list = document.getElementById('scraped-list');
+    
+    // Clear the existing list before adding new data
+    list.innerHTML = '';
 
-                // Create list item element for sentiment
-                const liSentiment = document.createElement('li');
-                liSentiment.textContent = `Sentiment: ${item.sentiment.vote} (Score: ${item.sentiment.score})`;
-                liSentiment.className = "list-group-item sentiment";
-                
-                // Style sentiment
-                liSentiment.style.fontWeight = "bold";
-                liSentiment.style.fontSize = "18px";
-                liSentiment.style.color = item.sentiment.vote === "positive" ? "#00ff7f" : "#ff6347"; 
-                liSentiment.style.backgroundColor = "#444444";  
-                liSentiment.style.padding = "10px";
-                liSentiment.style.marginTop = "5px";           
+    data.forEach(item => {
+        // Create list item element for original text
+        const liOriginalText = document.createElement('li');
+        liOriginalText.textContent = `Original Text: ${item.originalText}`;
+        liOriginalText.className = "list-group-item";
+        liOriginalText.style.fontWeight = "normal"; 
+        liOriginalText.style.fontSize = "16px";
+        liOriginalText.style.color = "#ffffff";      
+        liOriginalText.style.backgroundColor = "#333333"; 
+        liOriginalText.style.padding = "10px";       
 
-                // Append elements to the list
-                list.appendChild(liOriginalText);
-                list.appendChild(liSentiment);
-            });
-            });
+        // Create list item element for sentiment
+        const liSentiment = document.createElement('li');
+        liSentiment.textContent = `Sentiment: ${item.sentiment.vote} (Score: ${item.sentiment.score})`;
+        liSentiment.className = "list-group-item sentiment";
+        
+        // Style sentiment
+        liSentiment.style.fontWeight = "bold";
+        liSentiment.style.fontSize = "18px";
+        liSentiment.style.color = item.sentiment.vote === "positive" ? "#00ff7f" : "#ff6347"; 
+        liSentiment.style.backgroundColor = "#444444";  
+        liSentiment.style.padding = "10px";
+        liSentiment.style.marginTop = "5px";           
+
+        // Append elements to the list
+        list.appendChild(liOriginalText);
+        list.appendChild(liSentiment);
+    });
+});
+
     </script>
 </body>
 
