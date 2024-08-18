@@ -17,39 +17,36 @@
       align-items: center;
       background-color: #393e46;
       background-image: url('images/SeeThru.svg');
-      background-size: cover; /* Ensure the background covers the entire page */
-      background-position: center center; /* Center the background image */
-      background-repeat: no-repeat; /* Prevent the background from repeating */
-      min-height: 100vh; /* Ensures the content is centered even on larger screens */
-      backdrop-filter: blur(5px); /* Blur the background slightly */
-
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      backdrop-filter: blur(5px);
     }
 
     .container {
-      max-width: 600px; /* Max width for the container */
+      max-width: 600px;
       width: 100%;
-      padding: 0 20px; /* Padding for better spacing on smaller screens */
+      padding: 0 20px;
     }
 
     h1 {
-      text-align: center; /* Center the heading text */
-      color: #00ffb7; /* Add a matching color to the title */
+      text-align: center;
+      color: #00ffb7;
     }
 
     .card {
-      width: 100%; /* Full width of the container */
-      min-width: 600px; /* Set a minimum width to prevent squishing */
-      padding: 20px; /* Add some padding inside the card for better spacing */
-      border-radius: 25px; /* Make the corners of the card more rounded */
-      
-      /* Enhanced glowing effect */
-      box-shadow: 0 0 30px 15px rgba(0, 255, 183, 0.7); /* Stronger glow effect */
-      background-color: #222831; /* Darker card background for contrast */
-      color: #eeeeee; /* Light text color */
+      width: 100%;
+      min-width: 600px;
+      padding: 20px;
+      border-radius: 25px;
+      box-shadow: 0 0 30px 15px rgba(0, 255, 183, 0.7);
+      background-color: #222831;
+      color: #eeeeee;
     }
 
     .form-label {
-      color: #00ffb7; /* Matching color for labels */
+      color: #00ffb7;
     }
 
     .btn-primary {
@@ -62,22 +59,30 @@
       border-color: #00e6a1;
     }
 
-    /* Style for the logo image */
-    .logo {
-      position: absolute;
-      top: 100px;  /* Adjust the top margin as needed */
-      left: -350px; /* Adjust the left margin as needed */
-      width: 250px; /* Adjust the width to stretch the image */
-      height: 250px; /* Adjust the height to stretch the image */
-      object-fit: cover; /* Ensures the image covers the entire area */
+    /* Custom Spinner Container */
+    .spinner-container {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    /* Custom Spinner Image */
+    .spinner-image {
+      width: 50px; /* Adjust size as needed */
+      height: 50px; /* Adjust size as needed */
+      animation: spin 1s linear infinite;
+    }
+
+    /* Spinner Animation */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
 
   </style>
 </head>
 <body>
-  <!-- Logo Image -->
-  <!-- <img src="images/logo3.png" alt="Logo" class="logo"> -->
-
   <div class="container">
     <h1>Web Scraper</h1>
     
@@ -96,6 +101,12 @@
 
           <button type="submit" class="btn btn-primary w-100">Start Scraping</button>
         </form>
+
+        <!-- Custom Spinner -->
+        <div id="spinner-container" class="spinner-container">
+          <img src="images/spinner.png" alt="Loading..." class="spinner-image">
+        </div>
+
       </div>
     </div>
   </div>
@@ -109,16 +120,32 @@
       const url = document.getElementById('url').value;
       const pages = document.getElementById('pages').value;
 
-      const response = await fetch('/scrape', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ url, pages })
-      });
+      // Show the spinner when scraping starts
+      document.getElementById('spinner-container').style.display = 'flex';
 
-      const result = await response.json();
-      alert(result.message);
+      try {
+        const response = await fetch('/scrape', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ url, pages })
+        });
+
+        const result = await response.json();
+
+        // Hide the spinner when scraping is complete
+        document.getElementById('spinner-container').style.display = 'none';
+
+        alert(result.message);
+      } catch (error) {
+        console.error('Error:', error);
+
+        // Hide the spinner if there's an error
+        document.getElementById('spinner-container').style.display = 'none';
+
+        alert('An error occurred during scraping.');
+      }
     });
   </script>
 </body>
