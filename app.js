@@ -2,12 +2,35 @@ const express = require('express');
 const path = require('path');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+require('dotenv').config();
+const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+
+// MongoDB connection
+const uri = process.env.MONGODB_URI || "mongodb+srv://srimanp201:JJh5HCRL5qHaXiGO@hackathondb.ev7rc.mongodb.net/?retryWrites=true&w=majority&appName=HackathonDB"; // Replace with your connection string
+const client = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  },
+  tls: false, // Disable TLS
+  ssl: false  // Disable SSL
+});
+
+async function connectToMongoDB() {
+  try {
+    await client.connect();
+    console.log("Connected to MongoDB successfully!");
+  } catch (error) {
+    console.error("MongoDB connection failed:", error.message);
+  }
+}
 
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
@@ -26,6 +49,7 @@ app.post('/scrape', async (req, res) => {
   }
 
   try {
+    await connectToMongoDB();
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     const maxPages = parseInt(pages, 10);
@@ -58,7 +82,13 @@ app.post('/scrape', async (req, res) => {
     await scrapePage(currentPage);
     await browser.close();
 
-    // Save to file
+    // Save to MongoDB
+    const db = client.db('HackathonDB'); // Replace 'HackathonDB' with your actual database name
+    const collection = db.collection('scrapedData'); // Replace 'scrapedData' with your desired collection name
+
+    await collection.insertMany(scrapedData.map(text => ({ text })));
+
+    // Optionally save to file
     fs.writeFileSync('scrapedData.txt', scrapedData.join('\n'));
 
     // Send response
@@ -70,6 +100,9 @@ app.post('/scrape', async (req, res) => {
   } catch (error) {
     console.error('Error scraping:', error.message);
     res.status(500).json({ error: 'Scraping failed' });
+  } finally {
+    // Ensure MongoDB client is closed after operation
+    await client.close();
   }
 });
 
