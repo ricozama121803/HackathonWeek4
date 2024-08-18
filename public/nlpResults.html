@@ -97,39 +97,40 @@
 
         fetchNLPData().then(data => {
     const list = document.getElementById('scraped-list');
-    
-    // Clear the existing list before adding new data
-    list.innerHTML = '';
+    list.innerHTML = ''; // Clear the list before adding new data
 
     data.forEach(item => {
-        // Create list item element for original text
-        const liOriginalText = document.createElement('li');
-        liOriginalText.textContent = `Original Text: ${item.originalText}`;
-        liOriginalText.className = "list-group-item";
-        liOriginalText.style.fontWeight = "normal"; 
-        liOriginalText.style.fontSize = "16px";
-        liOriginalText.style.color = "#ffffff";      
-        liOriginalText.style.backgroundColor = "#333333"; 
-        liOriginalText.style.padding = "10px";       
+        if (item.originalText && item.originalText.trim() !== '') {
+            // Create list item element for original text
+            const liOriginalText = document.createElement('li');
+            liOriginalText.textContent = `Original Text: ${item.originalText}`;
+            liOriginalText.className = "list-group-item";
+            liOriginalText.style.fontWeight = "normal";
+            liOriginalText.style.fontSize = "16px";
+            liOriginalText.style.color = "#ffffff";
+            liOriginalText.style.backgroundColor = "#333333";
+            liOriginalText.style.padding = "10px";
 
-        // Create list item element for sentiment
-        const liSentiment = document.createElement('li');
-        liSentiment.textContent = `Sentiment: ${item.sentiment.vote} (Score: ${item.sentiment.score})`;
-        liSentiment.className = "list-group-item sentiment";
-        
-        // Style sentiment
-        liSentiment.style.fontWeight = "bold";
-        liSentiment.style.fontSize = "18px";
-        liSentiment.style.color = item.sentiment.vote === "positive" ? "#00ff7f" : "#ff6347"; 
-        liSentiment.style.backgroundColor = "#444444";  
-        liSentiment.style.padding = "10px";
-        liSentiment.style.marginTop = "5px";           
+            // Create list item element for sentiment
+            const liSentiment = document.createElement('li');
+            liSentiment.textContent = `Sentiment: ${item.sentiment.vote} (Score: ${item.sentiment.score})`;
+            liSentiment.className = "list-group-item sentiment";
 
-        // Append elements to the list
-        list.appendChild(liOriginalText);
-        list.appendChild(liSentiment);
+            // Style sentiment
+            liSentiment.style.fontWeight = "bold";
+            liSentiment.style.fontSize = "18px";
+            liSentiment.style.color = item.sentiment.vote === "positive" ? "#00ff7f" : "#ff6347";
+            liSentiment.style.backgroundColor = "#444444";
+            liSentiment.style.padding = "10px";
+            liSentiment.style.marginTop = "5px";
+
+            // Append elements to the list
+            list.appendChild(liOriginalText);
+            list.appendChild(liSentiment);
+        }
     });
 });
+
 
     </script>
 </body>
